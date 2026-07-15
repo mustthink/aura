@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T17:37:31Z",
+  "updatedAt": "2026-07-15T11:57:13Z",
   "total": 956,
   "data": [
     {
@@ -163,7 +163,7 @@
       "manufacture": null
     },
     {
-      "code": " б2ф/1006",
+      "code": "б2ф/1006",
       "price": 2899,
       "old_price": 4348.5,
       "availability": true,
@@ -4835,7 +4835,7 @@
       "manufacture": null
     },
     {
-      "code": " 20669",
+      "code": "20669",
       "price": 950,
       "old_price": 1425,
       "availability": true,
@@ -5219,7 +5219,7 @@
       "manufacture": null
     },
     {
-      "code": " 226Р 1 35А",
+      "code": "226Р 1 35А",
       "price": 1091,
       "old_price": 1636.5,
       "availability": true,
@@ -5827,7 +5827,7 @@
       "manufacture": null
     },
     {
-      "code": " 6470",
+      "code": "6470",
       "price": 4844,
       "old_price": 7266,
       "availability": true,
@@ -6371,7 +6371,7 @@
       "manufacture": null
     },
     {
-      "code": " 20865",
+      "code": "20865",
       "price": 3990,
       "old_price": 5985,
       "availability": true,
@@ -8163,7 +8163,7 @@
       "manufacture": null
     },
     {
-      "code": " КК2М/1024-17,5",
+      "code": "КК2М/1024-17,5",
       "price": 3035,
       "old_price": 4552.5,
       "availability": true,
@@ -8227,7 +8227,7 @@
       "manufacture": null
     },
     {
-      "code": " КК2М/1024-18,5",
+      "code": "КК2М/1024-18,5",
       "price": 2578,
       "old_price": 3867,
       "availability": true,
@@ -9859,7 +9859,7 @@
       "manufacture": null
     },
     {
-      "code": " КЛ2Ф/3007А",
+      "code": "КЛ2Ф/3007А",
       "price": 2931,
       "old_price": 4396.5,
       "availability": true,
@@ -9987,7 +9987,7 @@
       "manufacture": null
     },
     {
-      "code": " С2Ф/879А",
+      "code": "С2Ф/879А",
       "price": 2787,
       "old_price": 4180.5,
       "availability": true,
@@ -10979,7 +10979,7 @@
       "manufacture": null
     },
     {
-      "code": " ВС-773",
+      "code": "ВС-773",
       "price": 2101,
       "old_price": 3151.5,
       "availability": true,
@@ -11011,7 +11011,7 @@
       "manufacture": null
     },
     {
-      "code": " ВС-17А",
+      "code": "ВС-17А",
       "price": 2101,
       "old_price": 3151.5,
       "availability": true,
@@ -11043,7 +11043,7 @@
       "manufacture": null
     },
     {
-      "code": " ВС-17.5А",
+      "code": "ВС-17.5А",
       "price": 2101,
       "old_price": 3151.5,
       "availability": true,
@@ -11075,7 +11075,7 @@
       "manufacture": null
     },
     {
-      "code": " ВС-18А",
+      "code": "ВС-18А",
       "price": 2101,
       "old_price": 3151.5,
       "availability": true,
@@ -11107,9 +11107,9 @@
       "manufacture": null
     },
     {
-      "code": " ВС-18.5А",
-      "price": 0,
-      "old_price": 0,
+      "code": "ВС-18.5А",
+      "price": 2101,
+      "old_price": 3151.5,
       "availability": true,
       "stock": 10,
       "warehouses": [
@@ -11267,7 +11267,7 @@
       "manufacture": null
     },
     {
-      "code": " ВС-18АА",
+      "code": "ВС-18АА",
       "price": 2101,
       "old_price": 3151.5,
       "availability": true,
@@ -14115,7 +14115,7 @@
       "manufacture": null
     },
     {
-      "code": " 6434_45",
+      "code": "6434_45",
       "price": 1990,
       "old_price": 2985,
       "availability": true,
@@ -15459,7 +15459,7 @@
       "manufacture": null
     },
     {
-      "code": " П2/1020",
+      "code": "П2/1020",
       "price": 1744,
       "old_price": 2616,
       "availability": true,
