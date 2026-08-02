@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-31T11:46:50Z",
-  "total": 1025,
+  "updatedAt": "2026-08-02T20:05:15Z",
+  "total": 1036,
   "data": [
     {
       "code": "255Р 2/45",
@@ -163,7 +163,7 @@
       "manufacture": null
     },
     {
-      "code": "б2ф/1006",
+      "code": " б2ф/1006",
       "price": 2899,
       "old_price": 4348.5,
       "availability": true,
@@ -4835,7 +4835,7 @@
       "manufacture": null
     },
     {
-      "code": "20669",
+      "code": " 20669",
       "price": 950,
       "old_price": 1425,
       "availability": true,
@@ -5219,7 +5219,7 @@
       "manufacture": null
     },
     {
-      "code": "226Р 1 35А",
+      "code": " 226Р 1 35А",
       "price": 1091,
       "old_price": 1636.5,
       "availability": true,
@@ -5827,7 +5827,7 @@
       "manufacture": null
     },
     {
-      "code": "6470",
+      "code": " 6470",
       "price": 4844,
       "old_price": 7266,
       "availability": true,
@@ -6371,7 +6371,7 @@
       "manufacture": null
     },
     {
-      "code": "20865",
+      "code": " 20865",
       "price": 3990,
       "old_price": 5985,
       "availability": true,
@@ -7715,7 +7715,7 @@
       "manufacture": null
     },
     {
-      "code": "КК2Ф/2011-16,5",
+      "code": " КК2Ф/2011-16,5",
       "price": 2678,
       "old_price": 4017,
       "availability": true,
@@ -8163,7 +8163,7 @@
       "manufacture": null
     },
     {
-      "code": "КК2М/1024-17,5",
+      "code": " КК2М/1024-17,5",
       "price": 3035,
       "old_price": 4552.5,
       "availability": true,
@@ -8227,7 +8227,7 @@
       "manufacture": null
     },
     {
-      "code": "КК2М/1024-18,5",
+      "code": " КК2М/1024-18,5",
       "price": 2578,
       "old_price": 3867,
       "availability": true,
@@ -9859,7 +9859,7 @@
       "manufacture": null
     },
     {
-      "code": "КЛ2Ф/3007А",
+      "code": " КЛ2Ф/3007А",
       "price": 2931,
       "old_price": 4396.5,
       "availability": true,
@@ -9987,7 +9987,7 @@
       "manufacture": null
     },
     {
-      "code": "С2Ф/879А",
+      "code": " С2Ф/879А",
       "price": 2787,
       "old_price": 4180.5,
       "availability": true,
@@ -10179,7 +10179,7 @@
       "manufacture": null
     },
     {
-      "code": "СК2О/1498",
+      "code": " СК2О/1498",
       "price": 2546,
       "old_price": 3819,
       "availability": true,
@@ -10596,8 +10596,8 @@
     },
     {
       "code": "8222erozА",
-      "price": 790,
-      "old_price": 1185,
+      "price": 1490,
+      "old_price": 2235,
       "availability": true,
       "stock": 10,
       "warehouses": [
@@ -10628,8 +10628,8 @@
     },
     {
       "code": "8222ebirА",
-      "price": 790,
-      "old_price": 1185,
+      "price": 1490,
+      "old_price": 2235,
       "availability": true,
       "stock": 10,
       "warehouses": [
@@ -10979,7 +10979,7 @@
       "manufacture": null
     },
     {
-      "code": "ВС-773",
+      "code": " ВС-773",
       "price": 2101,
       "old_price": 3151.5,
       "availability": true,
@@ -11011,7 +11011,7 @@
       "manufacture": null
     },
     {
-      "code": "ВС-17А",
+      "code": " ВС-17А",
       "price": 2101,
       "old_price": 3151.5,
       "availability": true,
@@ -11043,7 +11043,7 @@
       "manufacture": null
     },
     {
-      "code": "ВС-17.5А",
+      "code": " ВС-17.5А",
       "price": 2101,
       "old_price": 3151.5,
       "availability": true,
@@ -11075,7 +11075,7 @@
       "manufacture": null
     },
     {
-      "code": "ВС-18А",
+      "code": " ВС-18А",
       "price": 2101,
       "old_price": 3151.5,
       "availability": true,
@@ -11107,7 +11107,7 @@
       "manufacture": null
     },
     {
-      "code": "ВС-18.5А",
+      "code": " ВС-18.5А",
       "price": 2101,
       "old_price": 3151.5,
       "availability": true,
@@ -11267,7 +11267,7 @@
       "manufacture": null
     },
     {
-      "code": "ВС-18АА",
+      "code": " ВС-18АА",
       "price": 2101,
       "old_price": 3151.5,
       "availability": true,
@@ -11335,11 +11335,11 @@
       "price": 2101,
       "old_price": 3151.5,
       "availability": true,
-      "stock": 10,
+      "stock": 0,
       "warehouses": [
         {
           "id": "32",
-          "stock": 10
+          "stock": 0
         }
       ],
       "warranty_type": "merchant",
@@ -14115,7 +14115,7 @@
       "manufacture": null
     },
     {
-      "code": "6434_45",
+      "code": " 6434_45",
       "price": 1990,
       "old_price": 2985,
       "availability": true,
@@ -15459,7 +15459,7 @@
       "manufacture": null
     },
     {
-      "code": "П2/1020",
+      "code": " П2/1020",
       "price": 1744,
       "old_price": 2616,
       "availability": true,
@@ -21764,8 +21764,8 @@
     },
     {
       "code": "20836А",
-      "price": 1530,
-      "old_price": 2295,
+      "price": 2430,
+      "old_price": 3645,
       "availability": true,
       "stock": 10,
       "warehouses": [
@@ -28867,7 +28867,7 @@
       "manufacture": null
     },
     {
-      "code": "20901rozА",
+      "code": " 20901rozА",
       "price": 2262,
       "old_price": 3393,
       "availability": true,
@@ -28899,7 +28899,7 @@
       "manufacture": null
     },
     {
-      "code": "20901sА",
+      "code": " 20901sА",
       "price": 2262,
       "old_price": 3393,
       "availability": true,
@@ -32227,7 +32227,7 @@
       "manufacture": null
     },
     {
-      "code": "ЛК-0429РА",
+      "code": " ЛК-0429РА",
       "price": 1500,
       "old_price": 2250,
       "availability": true,
@@ -32774,6 +32774,358 @@
       "code": "6517_45А",
       "price": 13800,
       "old_price": 20700,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 3,
+      "manufacture": null
+    },
+    {
+      "code": "Овен",
+      "price": 1725,
+      "old_price": 2587.5,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 3,
+      "manufacture": null
+    },
+    {
+      "code": "Лев",
+      "price": 1725,
+      "old_price": 2587.5,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 3,
+      "manufacture": null
+    },
+    {
+      "code": "Діва",
+      "price": 1725,
+      "old_price": 2587.5,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 3,
+      "manufacture": null
+    },
+    {
+      "code": "Терези",
+      "price": 1725,
+      "old_price": 2587.5,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 3,
+      "manufacture": null
+    },
+    {
+      "code": "Телець",
+      "price": 1725,
+      "old_price": 2587.5,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 3,
+      "manufacture": null
+    },
+    {
+      "code": "Козеріг",
+      "price": 1725,
+      "old_price": 2587.5,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 3,
+      "manufacture": null
+    },
+    {
+      "code": "Водолій",
+      "price": 1725,
+      "old_price": 2587.5,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 3,
+      "manufacture": null
+    },
+    {
+      "code": "Риба",
+      "price": 1725,
+      "old_price": 2587.5,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 3,
+      "manufacture": null
+    },
+    {
+      "code": "Близнюки",
+      "price": 1725,
+      "old_price": 2587.5,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 3,
+      "manufacture": null
+    },
+    {
+      "code": "Рак",
+      "price": 1725,
+      "old_price": 2587.5,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 3,
+      "manufacture": null
+    },
+    {
+      "code": "ВС-793р(т)",
+      "price": 2991,
+      "old_price": 4486.5,
       "availability": true,
       "stock": 10,
       "warehouses": [
