@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T13:50:46Z",
+  "updatedAt": "2026-08-07T13:21:45Z",
   "total": 1051,
   "data": [
     {
@@ -487,11 +487,11 @@
       "price": 3797,
       "old_price": 5695.5,
       "availability": true,
-      "stock": 10,
+      "stock": 0,
       "warehouses": [
         {
           "id": "95",
-          "stock": 10
+          "stock": 0
         }
       ],
       "warranty_type": "merchant",
@@ -647,11 +647,11 @@
       "price": 3417,
       "old_price": 5125.5,
       "availability": true,
-      "stock": 10,
+      "stock": 0,
       "warehouses": [
         {
           "id": "95",
-          "stock": 10
+          "stock": 0
         }
       ],
       "warranty_type": "merchant",
@@ -11108,8 +11108,8 @@
     },
     {
       "code": "ВС-18.5А",
-      "price": 0,
-      "old_price": 0,
+      "price": 2101,
+      "old_price": 3151.5,
       "availability": true,
       "stock": 10,
       "warehouses": [
@@ -14407,11 +14407,11 @@
       "price": 1076,
       "old_price": 1614,
       "availability": true,
-      "stock": 10,
+      "stock": 0,
       "warehouses": [
         {
           "id": "32",
-          "stock": 10
+          "stock": 0
         }
       ],
       "warranty_type": "merchant",
@@ -33379,7 +33379,7 @@
       "manufacture": null
     },
     {
-      "code": "ВС-335p(сж) ",
+      "code": "ВС-335p(сж)",
       "price": 1923,
       "old_price": 2884.5,
       "availability": true,
