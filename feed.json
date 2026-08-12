@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T12:08:02Z",
+  "updatedAt": "2026-08-12T16:31:06Z",
   "total": 1124,
   "data": [
     {
@@ -27491,7 +27491,7 @@
       "manufacture": null
     },
     {
-      "code": "10773golА18 ",
+      "code": "10773golА18",
       "price": 1450,
       "old_price": 2175,
       "availability": true,
@@ -27523,7 +27523,7 @@
       "manufacture": null
     },
     {
-      "code": "10773zА17 ",
+      "code": "10773zА17",
       "price": 1450,
       "old_price": 2175,
       "availability": true,
@@ -33347,7 +33347,7 @@
       "manufacture": null
     },
     {
-      "code": "ВС-335p(сж) ",
+      "code": "ВС-335p(сж)",
       "price": 1923,
       "old_price": 2884.5,
       "availability": true,
