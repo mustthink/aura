@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T13:22:46Z",
+  "updatedAt": "2026-08-20T13:24:32Z",
   "total": 1171,
   "data": [
     {
@@ -12263,11 +12263,11 @@
       "price": 1428,
       "old_price": 0,
       "availability": true,
-      "stock": 10,
+      "stock": 0,
       "warehouses": [
         {
           "id": "32",
-          "stock": 10
+          "stock": 0
         }
       ],
       "warranty_type": "merchant",
@@ -12295,11 +12295,11 @@
       "price": 1428,
       "old_price": 0,
       "availability": true,
-      "stock": 10,
+      "stock": 0,
       "warehouses": [
         {
           "id": "32",
-          "stock": 10
+          "stock": 0
         }
       ],
       "warranty_type": "merchant",
@@ -12327,11 +12327,11 @@
       "price": 1428,
       "old_price": 0,
       "availability": true,
-      "stock": 10,
+      "stock": 0,
       "warehouses": [
         {
           "id": "32",
-          "stock": 10
+          "stock": 0
         }
       ],
       "warranty_type": "merchant",
@@ -12359,11 +12359,11 @@
       "price": 1428,
       "old_price": 0,
       "availability": true,
-      "stock": 10,
+      "stock": 0,
       "warehouses": [
         {
           "id": "32",
-          "stock": 10
+          "stock": 0
         }
       ],
       "warranty_type": "merchant",
@@ -12391,11 +12391,11 @@
       "price": 1428,
       "old_price": 0,
       "availability": true,
-      "stock": 10,
+      "stock": 0,
       "warehouses": [
         {
           "id": "32",
-          "stock": 10
+          "stock": 0
         }
       ],
       "warranty_type": "merchant",
@@ -12423,11 +12423,11 @@
       "price": 1428,
       "old_price": 0,
       "availability": true,
-      "stock": 10,
+      "stock": 0,
       "warehouses": [
         {
           "id": "32",
-          "stock": 10
+          "stock": 0
         }
       ],
       "warranty_type": "merchant",
@@ -12455,11 +12455,11 @@
       "price": 1428,
       "old_price": 0,
       "availability": true,
-      "stock": 10,
+      "stock": 0,
       "warehouses": [
         {
           "id": "32",
-          "stock": 10
+          "stock": 0
         }
       ],
       "warranty_type": "merchant",
