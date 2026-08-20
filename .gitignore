@@ -1,3 +1,6 @@
-*
-!feed.json
-!.gitignore
+# IDE configs
+.idea/
+.vscode/
+
+# OS files
+.DS_Store

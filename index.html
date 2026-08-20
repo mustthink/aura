@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AURA Feed Generator</title>
+  <!-- SEO & Icons -->
+  <meta name="description" content="Generate and publish your product feed from CSV directly to GitHub safely.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <!-- PapaParse for CSV parsing -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+
+  <style>
+    :root {
+      --bg-primary: #0b0f19;
+      --bg-secondary: #131b2e;
+      --bg-card: rgba(22, 30, 49, 0.7);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --border-focus: #6366f1;
+      --text-primary: #f8fafc;
+      --text-secondary: #94a3b8;
+      --text-muted: #64748b;
+      --accent: #6366f1;
+      --accent-hover: #4f46e5;
+      --success: #10b981;
+      --error: #ef4444;
+      --warning: #f59e0b;
+      --glow: rgba(99, 102, 241, 0.15);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-primary);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.12) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(14, 165, 233, 0.08) 0px, transparent 50%);
+      background-attachment: fixed;
+      color: var(--text-primary);
+      font-family: 'Outfit', sans-serif;
+      min-height: 100vh;
+      line-height: 1.5;
+      padding: 2rem 1.5rem;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2.5rem;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 1.5rem;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .logo-icon {
+      background: linear-gradient(135deg, #6366f1, #0ea5e9);
+      width: 40px;
+      height: 40px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      color: #fff;
+      font-size: 1.25rem;
+      box-shadow: 0 0 20px rgba(99, 102, 241, 0.4);
+    }
+
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      background: linear-gradient(to right, #ffffff, #94a3b8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .subtitle {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      margin-top: 0.25rem;
+    }
+
+    .github-link {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 0.9rem;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+      background: rgba(255, 255, 255, 0.02);
+      transition: all 0.2s ease;
+    }
+
+    .github-link:hover {
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--text-primary);
+      border-color: var(--text-muted);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      align-items: start;
+    }
+
+    @media (max-width: 900px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .card {
+      background: var(--bg-card);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.3);
+      transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      border-color: rgba(99, 102, 241, 0.2);
+      box-shadow: 0 10px 30px -10px rgba(99, 102, 241, 0.05);
+    }
+
+    .card-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--text-primary);
+    }
+
+    .card-title svg {
+      color: var(--accent);
+    }
+
+    .form-group {
+      margin-bottom: 1.25rem;
+    }
+
+    label {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+      margin-bottom: 0.5rem;
+    }
+
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      color: var(--text-primary);
+      font-family: inherit;
+      font-size: 0.95rem;
+      transition: all 0.2s ease;
+    }
+
+    input[type="text"]:focus, input[type="password"]:focus {
+      outline: none;
+      border-color: var(--border-focus);
+      box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+      background: rgba(15, 23, 42, 0.8);
+    }
+
+    .helper-text {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 0.35rem;
+    }
+
+    /* Drag & Drop Upload Zone */
+    .upload-zone {
+      border: 2px dashed var(--border-color);
+      border-radius: 12px;
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+      cursor: pointer;
+      background: rgba(255, 255, 255, 0.01);
+      transition: all 0.2s ease;
+      position: relative;
+    }
+
+    .upload-zone:hover, .upload-zone.dragover {
+      border-color: var(--accent);
+      background: rgba(99, 102, 241, 0.03);
+    }
+
+    .upload-icon {
+      font-size: 2.5rem;
+      color: var(--text-secondary);
+      margin-bottom: 1rem;
+      display: inline-block;
+      transition: transform 0.2s ease;
+    }
+
+    .upload-zone:hover .upload-icon {
+      transform: translateY(-4px);
+      color: var(--accent);
+    }
+
+    .upload-text {
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+    }
+
+    .upload-subtext {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 0.25rem;
+    }
+
+    #file-input {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      cursor: pointer;
+    }
+
+    .file-details {
+      display: none;
+      margin-top: 1rem;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .file-info {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.9rem;
+    }
+
+    .file-info svg {
+      color: var(--success);
+    }
+
+    .remove-file {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 1.1rem;
+      padding: 0.25rem;
+      transition: color 0.2s ease;
+    }
+
+    .remove-file:hover {
+      color: var(--error);
+    }
+
+    /* Buttons */
+    .btn {
+      width: 100%;
+      background: linear-gradient(135deg, var(--accent), #4f46e5);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 0.85rem;
+      font-family: inherit;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 15px rgba(99, 102, 241, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-top: 1.5rem;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(99, 102, 241, 0.3);
+    }
+
+    .btn:active {
+      transform: translateY(1px);
+    }
+
+    .btn:disabled {
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-muted);
+      cursor: not-allowed;
+      box-shadow: none;
+      transform: none;
+    }
+
+    /* Logs & Output Console */
+    .console-card {
+      grid-column: span 2;
+    }
+
+    @media (max-width: 900px) {
+      .console-card {
+        grid-column: span 1;
+      }
+    }
+
+    .console-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .console-dots {
+      display: flex;
+      gap: 6px;
+    }
+
+    .console-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--text-muted);
+    }
+
+    .console-dot.red { background: #ef4444; }
+    .console-dot.yellow { background: #f59e0b; }
+    .console-dot.green { background: #10b981; }
+
+    .console-title {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+    }
+
+    .console-window {
+      background: #020617;
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 1.25rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.85rem;
+      height: 250px;
+      overflow-y: auto;
+      color: #e2e8f0;
+      white-space: pre-wrap;
+      box-shadow: inset 0 2px 10px rgba(0,0,0,0.8);
+      scroll-behavior: smooth;
+    }
+
+    .log-line {
+      margin-bottom: 0.4rem;
+      line-height: 1.4;
+      opacity: 0;
+      animation: fadeIn 0.2s forwards;
+    }
+
+    .log-time {
+      color: var(--text-muted);
+      margin-right: 0.5rem;
+    }
+
+    .log-info { color: #38bdf8; }
+    .log-success { color: #34d399; font-weight: 500; }
+    .log-error { color: #f87171; font-weight: 500; }
+    .log-warning { color: #fbbf24; }
+
+    /* Results Preview Card */
+    .preview-card {
+      grid-column: span 2;
+      display: none; /* Shown dynamically when conversion completes */
+    }
+
+    @media (max-width: 900px) {
+      .preview-card {
+        grid-column: span 1;
+      }
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .stat-box {
+      background: rgba(15, 23, 42, 0.4);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .stat-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      letter-spacing: 0.05em;
+    }
+
+    .stat-val {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--accent);
+      margin-top: 0.25rem;
+    }
+
+    .table-container {
+      overflow-x: auto;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85rem;
+      text-align: left;
+    }
+
+    th {
+      background: rgba(15, 23, 42, 0.6);
+      color: var(--text-secondary);
+      font-weight: 600;
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--border-color);
+      color: var(--text-primary);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    tr:hover td {
+      background: rgba(255, 255, 255, 0.01);
+    }
+
+    /* Modal for Quick Setup Help */
+    .help-icon {
+      cursor: pointer;
+      color: var(--text-secondary);
+      transition: color 0.2s ease;
+    }
+
+    .help-icon:hover {
+      color: var(--accent);
+    }
+
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo-container">
+        <div class="logo-icon">A</div>
+        <div>
+          <h1>AURA Feed Generator</h1>
+          <div class="subtitle">Convert products CSV and publish to feed branch securely</div>
+        </div>
+      </div>
+      <a href="https://github.com/mustthink/aura" target="_blank" class="github-link">
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1.2em" width="1.2em" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+        </svg>
+        GitHub Repo
+      </a>
+    </header>
+
+    <div class="grid">
+      <!-- Card 1: Configuration -->
+      <div class="card">
+        <div class="card-title">
+          <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" height="1.1em" width="1.1em" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+          </svg>
+          Configuration
+        </div>
+        
+        <div class="form-group">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <label for="github-token">GitHub Personal Access Token (PAT)</label>
+            <span class="help-icon" onclick="alert('How to get a Token:\n1. Go to GitHub Settings -> Developer Settings -> Personal Access Tokens -> Fine-grained tokens.\n2. Click Generate New Token.\n3. Grant read & write permissions for Contents on the mustthink/aura repository.\n4. Copy and paste the token here.\n\nNote: The token is saved ONLY in your local browser storage and is never uploaded elsewhere.')">
+              <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" height="1.1em" width="1.1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            </span>
+          </div>
+          <input type="password" id="github-token" placeholder="github_pat_..." autocomplete="current-password">
+          <div class="helper-text">Stored securely in your local browser's storage.</div>
+        </div>
+
+        <div class="form-group" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div>
+            <label for="repo-owner">Repo Owner</label>
+            <input type="text" id="repo-owner" value="mustthink">
+          </div>
+          <div>
+            <label for="repo-name">Repo Name</label>
+            <input type="text" id="repo-name" value="aura">
+          </div>
+        </div>
+
+        <div class="form-group" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div>
+            <label for="repo-branch">Target Branch</label>
+            <input type="text" id="repo-branch" value="feed">
+          </div>
+          <div>
+            <label for="feed-path">File Path</label>
+            <input type="text" id="feed-path" value="feed.json">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="commit-message">Commit Message</label>
+          <input type="text" id="commit-message" value="Update feed.json">
+        </div>
+      </div>
+
+      <!-- Card 2: Upload and Trigger -->
+      <div class="card">
+        <div class="card-title">
+          <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" height="1.1em" width="1.1em" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path>
+          </svg>
+          CSV Upload
+        </div>
+
+        <div class="upload-zone" id="drop-zone">
+          <span class="upload-icon">📥</span>
+          <div class="upload-text">Drag & drop input.csv here</div>
+          <div class="upload-subtext">or click to browse your files</div>
+          <input type="file" id="file-input" accept=".csv">
+        </div>
+
+        <div class="file-details" id="file-details">
+          <div class="file-info">
+            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" height="1.2em" width="1.2em" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <span id="file-name">input.csv</span>
+            <span id="file-size" style="color: var(--text-muted); font-size: 0.8rem;">(0 KB)</span>
+          </div>
+          <button class="remove-file" id="remove-file-btn" title="Remove file">&times;</button>
+        </div>
+
+        <button class="btn" id="submit-btn" disabled>
+          <svg stroke="currentColor" fill="none" stroke-width="2.5" viewBox="0 0 24 24" height="1.1em" width="1.1em" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"></path>
+          </svg>
+          Convert & Commit to GitHub
+        </button>
+      </div>
+
+      <!-- Card 3: Preview Details -->
+      <div class="card preview-card" id="preview-card">
+        <div class="card-title">
+          <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" height="1.1em" width="1.1em" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path>
+          </svg>
+          Feed Preview Summary
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-box">
+            <div class="stat-label">Total Products</div>
+            <div class="stat-val" id="stat-total">0</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-label">Updated Timestamp</div>
+            <div class="stat-val" id="stat-updated" style="font-size: 0.95rem; font-family: monospace; padding-top: 0.4rem;">-</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-label">Raw JSON Link</div>
+            <div class="stat-val" style="font-size: 0.8rem; padding-top: 0.4rem;">
+              <a id="feed-raw-link" href="#" target="_blank" style="color: var(--accent); text-decoration: none; word-break: break-all;">View File</a>
+            </div>
+          </div>
+        </div>
+
+        <h3 style="font-size: 0.95rem; margin-bottom: 0.75rem; color: var(--text-secondary);">Sample Data (First 5 Items)</h3>
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Code</th>
+                <th>Price</th>
+                <th>Old Price</th>
+                <th>Stock</th>
+                <th>Warehouse</th>
+              </tr>
+            </thead>
+            <tbody id="preview-tbody">
+              <!-- Inserted dynamically -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Card 4: Console Log -->
+      <div class="card console-card">
+        <div class="console-header">
+          <div class="console-dots">
+            <span class="console-dot red"></span>
+            <span class="console-dot yellow"></span>
+            <span class="console-dot green"></span>
+          </div>
+          <div class="console-title">PROCESS LOGS</div>
+          <div style="width: 42px;"></div> <!-- Spacer to center title -->
+        </div>
+        <div class="console-window" id="console-window">
+          <div class="log-line"><span class="log-time">[13:50:00]</span><span class="log-info">System initialized. Waiting for PAT configuration and input.csv...</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Constants & DOM Elements
+    const STORAGE_KEY_TOKEN = 'aura_github_token';
+    const STORAGE_KEY_OWNER = 'aura_github_owner';
+    const STORAGE_KEY_NAME = 'aura_github_name';
+    const STORAGE_KEY_BRANCH = 'aura_github_branch';
+    const STORAGE_KEY_PATH = 'aura_github_path';
+
+    const tokenInput = document.getElementById('github-token');
+    const ownerInput = document.getElementById('repo-owner');
+    const nameInput = document.getElementById('repo-name');
+    const branchInput = document.getElementById('repo-branch');
+    const pathInput = document.getElementById('feed-path');
+    const commitMsgInput = document.getElementById('commit-message');
+
+    const dropZone = document.getElementById('drop-zone');
+    const fileInput = document.getElementById('file-input');
+    const fileDetails = document.getElementById('file-details');
+    const fileNameText = document.getElementById('file-name');
+    const fileSizeText = document.getElementById('file-size');
+    const removeFileBtn = document.getElementById('remove-file-btn');
+    const submitBtn = document.getElementById('submit-btn');
+
+    const consoleWindow = document.getElementById('console-window');
+    const previewCard = document.getElementById('preview-card');
+    const statTotal = document.getElementById('stat-total');
+    const statUpdated = document.getElementById('stat-updated');
+    const feedRawLink = document.getElementById('feed-raw-link');
+    const previewTbody = document.getElementById('preview-tbody');
+
+    let loadedFile = null;
+    let convertedFeedData = null;
+
+    // Load initial config from LocalStorage
+    window.addEventListener('DOMContentLoaded', () => {
+      if (localStorage.getItem(STORAGE_KEY_TOKEN)) tokenInput.value = localStorage.getItem(STORAGE_KEY_TOKEN);
+      if (localStorage.getItem(STORAGE_KEY_OWNER)) ownerInput.value = localStorage.getItem(STORAGE_KEY_OWNER);
+      if (localStorage.getItem(STORAGE_KEY_NAME)) nameInput.value = localStorage.getItem(STORAGE_KEY_NAME);
+      if (localStorage.getItem(STORAGE_KEY_BRANCH)) branchInput.value = localStorage.getItem(STORAGE_KEY_BRANCH);
+      if (localStorage.getItem(STORAGE_KEY_PATH)) pathInput.value = localStorage.getItem(STORAGE_KEY_PATH);
+
+      log('info', 'Loaded configurations from localStorage.');
+      
+      // Auto fill GitHub Pages raw URL helper
+      updateRawLinkHelper();
+    });
+
+    // Save configurations on input change
+    tokenInput.addEventListener('change', () => localStorage.setItem(STORAGE_KEY_TOKEN, tokenInput.value));
+    ownerInput.addEventListener('change', () => {
+      localStorage.setItem(STORAGE_KEY_OWNER, ownerInput.value);
+      updateRawLinkHelper();
+    });
+    nameInput.addEventListener('change', () => {
+      localStorage.setItem(STORAGE_KEY_NAME, nameInput.value);
+      updateRawLinkHelper();
+    });
+    branchInput.addEventListener('change', () => {
+      localStorage.setItem(STORAGE_KEY_BRANCH, branchInput.value);
+      updateRawLinkHelper();
+    });
+    pathInput.addEventListener('change', () => {
+      localStorage.setItem(STORAGE_KEY_PATH, pathInput.value);
+      updateRawLinkHelper();
+    });
+
+    function updateRawLinkHelper() {
+      const owner = ownerInput.value.trim();
+      const repo = nameInput.value.trim();
+      const branch = branchInput.value.trim();
+      const path = pathInput.value.trim();
+      if (owner && repo && branch && path) {
+        const url = `https://raw.githubusercontent.com/${owner}/${repo}/refs/heads/${branch}/${path}`;
+        feedRawLink.href = url;
+        feedRawLink.textContent = `raw.githubusercontent.com/.../${path}`;
+      }
+    }
+
+    // Logger implementation
+    function log(type, message) {
+      const timeStr = new Date().toTimeString().split(' ')[0];
+      const logLine = document.createElement('div');
+      logLine.className = 'log-line';
+      
+      const timeSpan = document.createElement('span');
+      timeSpan.className = 'log-time';
+      timeSpan.textContent = `[${timeStr}]`;
+      
+      const statusSpan = document.createElement('span');
+      statusSpan.className = `log-${type}`;
+      statusSpan.textContent = `[${type.toUpperCase()}] `;
+      
+      const textSpan = document.createTextNode(message);
+      
+      logLine.appendChild(timeSpan);
+      logLine.appendChild(statusSpan);
+      logLine.appendChild(textSpan);
+      
+      consoleWindow.appendChild(logLine);
+      consoleWindow.scrollTop = consoleWindow.scrollHeight;
+    }
+
+    // Handle File Drop / File Selection
+    ['dragenter', 'dragover'].forEach(eventName => {
+      dropZone.addEventListener(eventName, (e) => {
+        e.preventDefault();
+        dropZone.classList.add('dragover');
+      }, false);
+    });
+
+    ['dragleave', 'drop'].forEach(eventName => {
+      dropZone.addEventListener(eventName, (e) => {
+        e.preventDefault();
+        dropZone.classList.remove('dragover');
+      }, false);
+    });
+
+    dropZone.addEventListener('drop', (e) => {
+      const dt = e.dataTransfer;
+      const files = dt.files;
+      if (files.length > 0) {
+        handleFileSelection(files[0]);
+      }
+    });
+
+    fileInput.addEventListener('change', (e) => {
+      if (fileInput.files.length > 0) {
+        handleFileSelection(fileInput.files[0]);
+      }
+    });
+
+    removeFileBtn.addEventListener('click', () => {
+      loadedFile = null;
+      fileInput.value = '';
+      dropZone.style.display = 'block';
+      fileDetails.style.display = 'none';
+      submitBtn.disabled = true;
+      previewCard.style.display = 'none';
+      log('info', 'File removed.');
+    });
+
+    function handleFileSelection(file) {
+      if (!file.name.endsWith('.csv')) {
+        log('error', `Rejected ${file.name}. Only CSV files are supported.`);
+        alert('Invalid file format. Please upload a .csv file.');
+        return;
+      }
+      loadedFile = file;
+      fileNameText.textContent = file.name;
+      fileSizeText.textContent = `(${(file.size / 1024).toFixed(1)} KB)`;
+      
+      dropZone.style.display = 'none';
+      fileDetails.style.display = 'flex';
+      submitBtn.disabled = false;
+      log('info', `Selected CSV file: ${file.name} (${file.size} bytes). Ready to parse.`);
+    }
+
+    // Main Process: CSV parsing and JSON compilation
+    submitBtn.addEventListener('click', async () => {
+      const token = tokenInput.value.trim();
+      const owner = ownerInput.value.trim();
+      const repo = nameInput.value.trim();
+      const branch = branchInput.value.trim();
+      const path = pathInput.value.trim();
+      const commitMessage = commitMsgInput.value.trim();
+
+      if (!token) {
+        log('error', 'GitHub Personal Access Token (PAT) is required!');
+        alert('Please fill in your GitHub PAT first.');
+        return;
+      }
+      if (!owner || !repo || !branch || !path) {
+        log('error', 'Repository details are required!');
+        alert('Please complete all repository configuration details.');
+        return;
+      }
+
+      submitBtn.disabled = true;
+      log('info', 'Starting process...');
+
+      // 1. Read and parse CSV using PapaParse
+      Papa.parse(loadedFile, {
+        complete: async function(results) {
+          log('success', `CSV parsing complete. Read ${results.data.length} raw lines.`);
+          
+          try {
+            // Convert Parsed Rows
+            const feed = convertCsvToFeed(results.data);
+            if (!feed) return;
+            
+            convertedFeedData = feed;
+            
+            // Render Stats & Preview
+            renderPreview(feed);
+            
+            // 2. Commit to GitHub API
+            await commitFeedToGitHub(feed, { token, owner, repo, branch, path, commitMessage });
+            
+          } catch (err) {
+            log('error', `Processing failed: ${err.message}`);
+          } finally {
+            submitBtn.disabled = false;
+          }
+        },
+        error: function(err) {
+          log('error', `Failed to parse CSV: ${err.message}`);
+          submitBtn.disabled = false;
+        },
+        skipEmptyLines: 'greedy'
+      });
+    });
+
+    // CSV to JSON conversion logic (replicating main.go exactly)
+    function convertCsvToFeed(rows) {
+      if (rows.length < 2) {
+        log('error', 'CSV file is empty or missing data rows.');
+        return null;
+      }
+
+      // First line is headers
+      const rawHeaders = rows[0];
+      const headerMap = {};
+      rawHeaders.forEach((header, index) => {
+        headerMap[header.trim().toLowerCase()] = index;
+      });
+
+      // Verify required headers match main.go
+      const required = ['code', 'price', 'old_price', 'stock', 'warehouse'];
+      const missing = required.filter(col => headerMap[col] === undefined);
+      if (missing.length > 0) {
+        log('error', `CSV missing required columns: ${missing.join(', ')}`);
+        alert(`CSV validation failed. Missing columns: ${missing.join(', ')}. Found: ${rawHeaders.join(', ')}`);
+        return null;
+      }
+
+      log('info', 'Verifying CSV column mappings...');
+      
+      const defaultDeliveryMethods = [
+        { method: "nova-post:postomat", price: 0 },
+        { method: "nova-post:branch", price: 0 },
+        { method: "nova-post:cargo_branch", price: 0 }
+      ];
+
+      const products = [];
+
+      for (let i = 1; i < rows.length; i++) {
+        const row = rows[i];
+        
+        // Handle potential empty or short rows
+        if (row.length < required.length) continue;
+
+        const rawCode = row[headerMap['code']];
+        const rawPrice = row[headerMap['price']];
+        const rawOldPrice = row[headerMap['old_price']];
+        const rawStock = row[headerMap['stock']];
+        const rawWarehouse = row[headerMap['warehouse']];
+
+        const code = rawCode ? rawCode.trim() : "";
+        
+        // Match parsing logic in main.go
+        const price = rawPrice ? parseFloat(rawPrice.trim()) : 0;
+        const oldPrice = rawOldPrice ? parseFloat(rawOldPrice.trim()) : 0;
+        const stock = rawStock ? parseInt(rawStock.trim(), 10) : 0;
+        const warehouseId = rawWarehouse ? rawWarehouse.trim() : "";
+
+        // Standard product data matching structure in main.go
+        const product = {
+          code: code,
+          price: isNaN(price) ? 0 : price,
+          old_price: isNaN(oldPrice) ? 0 : oldPrice,
+          availability: true,
+          stock: isNaN(stock) ? 0 : stock,
+          warehouses: [
+            {
+              id: warehouseId,
+              stock: isNaN(stock) ? 0 : stock
+            }
+          ],
+          warranty_type: "merchant",
+          warranty_period: 6,
+          max_pay_in_parts: 6,
+          delivery_methods: defaultDeliveryMethods,
+          days_to_dispatch: 3,
+          manufacture: null
+        };
+
+        products.push(product);
+      }
+
+      // Output JSON structure matching OutputJSON struct in main.go
+      // time.Now().UTC().Format(time.RFC3339) corresponds to split('.')[0] + 'Z' in JS ISO representation
+      const updatedAt = new Date().toISOString().split('.')[0] + 'Z';
+      
+      const feed = {
+        updatedAt: updatedAt,
+        total: products.length,
+        data: products
+      };
+
+      log('success', `Mapped ${products.length} products to product-feed schema successfully.`);
+      return feed;
+    }
+
+    // Render summary data preview to UI
+    function renderPreview(feed) {
+      statTotal.textContent = feed.total.toLocaleString();
+      statUpdated.textContent = feed.updatedAt;
+      
+      // Clean up previous rows
+      previewTbody.innerHTML = '';
+
+      // Preview top 5 rows
+      const itemsToPreview = feed.data.slice(0, 5);
+      itemsToPreview.forEach(prod => {
+        const tr = document.createElement('tr');
+        
+        const tdCode = document.createElement('td');
+        tdCode.textContent = prod.code;
+        
+        const tdPrice = document.createElement('td');
+        tdPrice.textContent = prod.price;
+        
+        const tdOldPrice = document.createElement('td');
+        tdOldPrice.textContent = prod.old_price;
+        
+        const tdStock = document.createElement('td');
+        tdStock.textContent = prod.stock;
+
+        const tdWarehouse = document.createElement('td');
+        tdWarehouse.textContent = prod.warehouses[0] ? prod.warehouses[0].id : '-';
+
+        tr.appendChild(tdCode);
+        tr.appendChild(tdPrice);
+        tr.appendChild(tdOldPrice);
+        tr.appendChild(tdStock);
+        tr.appendChild(tdWarehouse);
+
+        previewTbody.appendChild(tr);
+      });
+
+      previewCard.style.display = 'block';
+    }
+
+    // Commit to GitHub via API
+    async function commitFeedToGitHub(feed, config) {
+      const { token, owner, repo, branch, path, commitMessage } = config;
+      
+      log('info', `Checking if target branch '${branch}' exists...`);
+      
+      // 1. Verify branch exists and get latest commit SHA to check file existence
+      const fileUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`;
+      
+      let sha = null;
+      let existingFileResponse = null;
+
+      try {
+        existingFileResponse = await fetch(fileUrl, {
+          method: 'GET',
+          headers: {
+            'Authorization': `Bearer ${token}`,
+            'Accept': 'application/vnd.github+json',
+            'X-GitHub-Api-Version': '2022-11-28'
+          }
+        });
+
+        if (existingFileResponse.status === 200) {
+          const fileData = await existingFileResponse.json();
+          sha = fileData.sha;
+          log('success', `Found existing ${path} in '${branch}' branch. File SHA: ${sha.substring(0, 7)}`);
+        } else if (existingFileResponse.status === 404) {
+          log('info', `${path} not found on branch '${branch}'. A new file will be created.`);
+        } else if (existingFileResponse.status === 401) {
+          throw new Error("Invalid GitHub token. Please verify token authorization permissions.");
+        } else {
+          const errData = await existingFileResponse.json();
+          throw new Error(errData.message || `API error ${existingFileResponse.status}`);
+        }
+      } catch (err) {
+        log('error', `API lookup failed: ${err.message}`);
+        throw err;
+      }
+
+      // Convert payload to UTF-8 base64
+      log('info', 'Encoding feed payload to Base64...');
+      const feedJsonString = JSON.stringify(feed, null, 2);
+      const base64Content = utf8ToBase64(feedJsonString);
+
+      // 2. PUT contents to GitHub
+      log('info', `Committing file to GitHub API: PUT /repos/${owner}/${repo}/contents/${path}...`);
+      
+      const payload = {
+        message: commitMessage,
+        content: base64Content,
+        branch: branch
+      };
+      
+      if (sha) {
+        payload.sha = sha; // Required when updating existing files
+      }
+
+      try {
+        const uploadResponse = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`, {
+          method: 'PUT',
+          headers: {
+            'Authorization': `Bearer ${token}`,
+            'Accept': 'application/vnd.github+json',
+            'X-GitHub-Api-Version': '2022-11-28',
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(payload)
+        });
+
+        if (uploadResponse.status === 200 || uploadResponse.status === 201) {
+          const uploadData = await uploadResponse.json();
+          const commitSha = uploadData.commit.sha;
+          log('success', `Successfully committed changes! Commit: ${commitSha.substring(0, 7)}`);
+          log('success', `Updated feed.json is live. Commit URL: ${uploadData.commit.html_url}`);
+          alert(`Successfully committed feed.json changes to the '${branch}' branch!\nCommit: ${commitSha.substring(0, 7)}`);
+        } else {
+          const errData = await uploadResponse.json();
+          throw new Error(errData.message || `API error ${uploadResponse.status}`);
+        }
+      } catch (err) {
+        log('error', `GitHub API commit request failed: ${err.message}`);
+        throw err;
+      }
+    }
+
+    // Safe unicode helper to avoid failure with btoa on Ukrainian characters
+    function utf8ToBase64(str) {
+      const encoder = new TextEncoder();
+      const bytes = encoder.encode(str);
+      let binary = '';
+      const len = bytes.byteLength;
+      for (let i = 0; i < len; i++) {
+        binary += String.fromCharCode(bytes[i]);
+      }
+      return btoa(binary);
+    }
+  </script>
+</body>
+</html>
