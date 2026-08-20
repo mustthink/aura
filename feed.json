@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-08-20T12:13:21Z",
+  "updatedAt": "2026-08-20T12:29:40Z",
   "total": 1171,
   "data": [
     {
       "code": "255Р 2/45",
-      "price": 1880,
+      "price": 1881,
       "old_price": 0,
       "availability": true,
       "stock": 10,
       "warehouses": [
         {
-          "id": "95",
+          "id": "32",
           "stock": 10
         }
       ],
