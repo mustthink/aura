@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T12:37:31Z",
+  "updatedAt": "2026-08-31T12:40:35Z",
   "total": 1182,
   "data": [
     {
@@ -4676,7 +4676,7 @@
     },
     {
       "code": "20696tsk",
-      "price": 2790,
+      "price": 3790,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -25764,7 +25764,7 @@
     },
     {
       "code": "20845А",
-      "price": 1730,
+      "price": 1930,
       "old_price": 0,
       "availability": true,
       "stock": 10,
