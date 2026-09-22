@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T10:37:37Z",
+  "updatedAt": "2026-09-22T12:19:54Z",
   "total": 1542,
   "data": [
     {
@@ -34308,7 +34308,7 @@
     },
     {
       "code": "1117",
-      "price": 2671,
+      "price": 2100,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -34340,7 +34340,7 @@
     },
     {
       "code": "1200",
-      "price": 4750,
+      "price": 4720,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -34372,7 +34372,7 @@
     },
     {
       "code": "1204",
-      "price": 5132,
+      "price": 4832,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -34404,7 +34404,7 @@
     },
     {
       "code": "1124",
-      "price": 2791,
+      "price": 2291,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -34436,7 +34436,7 @@
     },
     {
       "code": "1067",
-      "price": 4750,
+      "price": 4450,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -34468,7 +34468,7 @@
     },
     {
       "code": "7383",
-      "price": 2561,
+      "price": 2131,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -34500,7 +34500,7 @@
     },
     {
       "code": "9540",
-      "price": 2891,
+      "price": 2391,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -34532,7 +34532,7 @@
     },
     {
       "code": "7506",
-      "price": 5865,
+      "price": 5565,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -34564,7 +34564,7 @@
     },
     {
       "code": "5244",
-      "price": 703,
+      "price": 603,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -34596,7 +34596,7 @@
     },
     {
       "code": "6026.2",
-      "price": 1233,
+      "price": 997,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -34628,7 +34628,7 @@
     },
     {
       "code": "6004",
-      "price": 1743,
+      "price": 1443,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -34660,7 +34660,7 @@
     },
     {
       "code": "з5244",
-      "price": 5734,
+      "price": 5324,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -34692,7 +34692,7 @@
     },
     {
       "code": "з2090A",
-      "price": 24800,
+      "price": 23300,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -34724,7 +34724,7 @@
     },
     {
       "code": "з2089А",
-      "price": 24800,
+      "price": 23300,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -34756,7 +34756,7 @@
     },
     {
       "code": "3925А",
-      "price": 3280,
+      "price": 2740,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -34788,7 +34788,7 @@
     },
     {
       "code": "3925А2",
-      "price": 3280,
+      "price": 2740,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -34820,7 +34820,7 @@
     },
     {
       "code": "3925А3",
-      "price": 3280,
+      "price": 2740,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -34852,7 +34852,7 @@
     },
     {
       "code": "3925А4",
-      "price": 3280,
+      "price": 2740,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -34884,7 +34884,7 @@
     },
     {
       "code": "3925А5",
-      "price": 3280,
+      "price": 2740,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -34916,7 +34916,7 @@
     },
     {
       "code": "3925А6",
-      "price": 3280,
+      "price": 2740,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -34948,7 +34948,7 @@
     },
     {
       "code": "3920А",
-      "price": 1990,
+      "price": 1190,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -34980,7 +34980,7 @@
     },
     {
       "code": "3920А2",
-      "price": 1990,
+      "price": 1190,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35012,7 +35012,7 @@
     },
     {
       "code": "3920А3",
-      "price": 1990,
+      "price": 1190,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35044,7 +35044,7 @@
     },
     {
       "code": "3920А4",
-      "price": 1990,
+      "price": 1190,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35076,7 +35076,7 @@
     },
     {
       "code": "3920А5",
-      "price": 1990,
+      "price": 1190,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35108,7 +35108,7 @@
     },
     {
       "code": "3838А",
-      "price": 2490,
+      "price": 2190,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35140,7 +35140,7 @@
     },
     {
       "code": "3838А1",
-      "price": 2490,
+      "price": 2190,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35172,7 +35172,7 @@
     },
     {
       "code": "3838А2",
-      "price": 2490,
+      "price": 2190,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35204,7 +35204,7 @@
     },
     {
       "code": "7103А",
-      "price": 1590,
+      "price": 970,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35236,7 +35236,7 @@
     },
     {
       "code": "7391А",
-      "price": 1354,
+      "price": 1054,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35268,7 +35268,7 @@
     },
     {
       "code": "з2097А",
-      "price": 18950,
+      "price": 17250,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35300,7 +35300,7 @@
     },
     {
       "code": "з2097.2А",
-      "price": 18950,
+      "price": 17250,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35332,7 +35332,7 @@
     },
     {
       "code": "7382",
-      "price": 1631,
+      "price": 811,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35364,7 +35364,7 @@
     },
     {
       "code": "з40046",
-      "price": 7211,
+      "price": 6811,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35396,7 +35396,7 @@
     },
     {
       "code": "з40070",
-      "price": 9355,
+      "price": 8855,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35428,7 +35428,7 @@
     },
     {
       "code": "з40078",
-      "price": 29113,
+      "price": 28912,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35460,7 +35460,7 @@
     },
     {
       "code": "з40084",
-      "price": 8008,
+      "price": 7808,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35492,7 +35492,7 @@
     },
     {
       "code": "з40057",
-      "price": 14999,
+      "price": 14390,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35524,7 +35524,7 @@
     },
     {
       "code": "з40058",
-      "price": 16780,
+      "price": 16480,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35556,7 +35556,7 @@
     },
     {
       "code": "з40043",
-      "price": 21021,
+      "price": 20521,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35588,7 +35588,7 @@
     },
     {
       "code": "7396.1А",
-      "price": 1350,
+      "price": 865,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35620,7 +35620,7 @@
     },
     {
       "code": "7392А",
-      "price": 1450,
+      "price": 1050,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35652,7 +35652,7 @@
     },
     {
       "code": "7279А",
-      "price": 1350,
+      "price": 744,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35748,7 +35748,7 @@
     },
     {
       "code": "з40047А",
-      "price": 13880,
+      "price": 12180,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35780,7 +35780,7 @@
     },
     {
       "code": "з40101А",
-      "price": 7300,
+      "price": 6900,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35812,7 +35812,7 @@
     },
     {
       "code": "з4763А",
-      "price": 9800,
+      "price": 9300,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35844,7 +35844,7 @@
     },
     {
       "code": "з4792А",
-      "price": 8900,
+      "price": 8000,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35876,7 +35876,7 @@
     },
     {
       "code": "з4928А",
-      "price": 29400,
+      "price": 28800,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35908,7 +35908,7 @@
     },
     {
       "code": "з4960А",
-      "price": 19700,
+      "price": 18500,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35940,7 +35940,7 @@
     },
     {
       "code": "з40067.1А",
-      "price": 10150,
+      "price": 9404,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -35972,7 +35972,7 @@
     },
     {
       "code": "з40115А",
-      "price": 20900,
+      "price": 20300,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -36036,7 +36036,7 @@
     },
     {
       "code": "з40001А",
-      "price": 6400,
+      "price": 5400,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -36068,7 +36068,7 @@
     },
     {
       "code": "з40034А",
-      "price": 6700,
+      "price": 5700,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -36100,7 +36100,7 @@
     },
     {
       "code": "з40102А",
-      "price": 6400,
+      "price": 5400,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -36132,7 +36132,7 @@
     },
     {
       "code": "6027А",
-      "price": 1850,
+      "price": 1350,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -36164,7 +36164,7 @@
     },
     {
       "code": "2042А",
-      "price": 1950,
+      "price": 1550,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -36196,7 +36196,7 @@
     },
     {
       "code": "40067.1А",
-      "price": 1950,
+      "price": 1450,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -36228,7 +36228,7 @@
     },
     {
       "code": "з2100А",
-      "price": 13900,
+      "price": 12600,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -36260,7 +36260,7 @@
     },
     {
       "code": "з4872А",
-      "price": 10900,
+      "price": 9404,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -36292,7 +36292,7 @@
     },
     {
       "code": "з40081А",
-      "price": 12900,
+      "price": 11900,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -36324,7 +36324,7 @@
     },
     {
       "code": "з4008А",
-      "price": 12900,
+      "price": 11900,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -36356,7 +36356,7 @@
     },
     {
       "code": "з40097А",
-      "price": 9400,
+      "price": 8800,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -36388,7 +36388,7 @@
     },
     {
       "code": "40023А",
-      "price": 2400,
+      "price": 1700,
       "old_price": 0,
       "availability": true,
       "stock": 10,
