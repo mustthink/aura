@@ -52,5 +52,5 @@ jobs:
               DAY="sunday"
             fi
           fi
-
-          node update-dispatch.js "$DAY"
+          
+          node .github/scripts/update-dispatch.js "$DAY"
