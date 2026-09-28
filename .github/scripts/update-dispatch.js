@@ -1,5 +1,5 @@
 const TOKEN = process.env.GITHUB_TOKEN;
-const REPO = process.env.GITHUB_REPOSITORY; // Provided automatically by GitHub Actions: "owner/repo"
+const REPO = process.env.GITHUB_REPOSITORY; // "owner/repo"
 const BRANCH = process.env.FEED_BRANCH || 'feed';
 const FILE_PATH = process.env.FEED_PATH || 'feed.json';
 
@@ -12,7 +12,6 @@ async function updateDispatchDays() {
     }
 
     const daysToDispatch = targetDay === 'friday' ? 3 : 2;
-    const url = `https://api.github.com/repos/${REPO}/contents/${FILE_PATH}?ref=${BRANCH}`;
     const headers = {
         'Authorization': `Bearer ${TOKEN}`,
         'Accept': 'application/vnd.github+json',
@@ -21,20 +20,45 @@ async function updateDispatchDays() {
     };
 
     try {
-        console.log(`Fetching existing feed from branch '${BRANCH}'...`);
-        const getRes = await fetch(url, { headers });
+        console.log(`Fetching existing file SHA from branch '${BRANCH}'...`);
+        const metaUrl = `https://api.github.com/repos/${REPO}/contents/${FILE_PATH}?ref=${BRANCH}`;
+        const metaRes = await fetch(metaUrl, { headers });
 
-        if (!getRes.ok) {
-            const err = await getRes.json();
-            throw new Error(`Failed to fetch ${FILE_PATH}: ${err.message}`);
+        if (!metaRes.ok) {
+            const err = await metaRes.json();
+            throw new Error(`Failed to fetch metadata for ${FILE_PATH}: ${err.message}`);
         }
 
-        const fileData = await getRes.json();
-        const sha = fileData.sha;
+        const fileMeta = await metaRes.json();
+        const sha = fileMeta.sha;
 
-        // Decode base64 content from GitHub API
-        const rawContent = Buffer.from(fileData.content, 'base64').toString('utf-8');
-        const feed = JSON.parse(rawContent);
+        // Fetch the raw content directly to safely handle larger JSON files (>1MB)
+        console.log(`Fetching raw file content from branch '${BRANCH}'...`);
+        const rawUrl = `https://raw.githubusercontent.com/${REPO}/refs/heads/${BRANCH}/${FILE_PATH}`;
+        const rawRes = await fetch(rawUrl, {
+            headers: {
+                'Authorization': `Bearer ${TOKEN}`,
+                'User-Agent': 'GitHub-Actions-Script'
+            }
+        });
+
+        if (!rawRes.ok) {
+            throw new Error(`Failed to download raw file: ${rawRes.status} ${rawRes.statusText}`);
+        }
+
+        const textContent = await rawRes.text();
+
+        if (!textContent || textContent.trim().length === 0) {
+            throw new Error(`File ${FILE_PATH} on branch '${BRANCH}' is empty!`);
+        }
+
+        let feed;
+        try {
+            feed = JSON.parse(textContent);
+        } catch (parseErr) {
+            console.error('Raw content preview:', textContent.substring(0, 200));
+            throw new Error(`Failed to parse JSON content: ${parseErr.message}`);
+        }
 
         // Update days_to_dispatch across products
         if (Array.isArray(feed.data)) {
@@ -43,11 +67,11 @@ async function updateDispatchDays() {
             });
         }
 
-        // Update timestamp matching your script format
+        // Update timestamp
         feed.updatedAt = new Date().toISOString().split('.')[0] + 'Z';
 
-        // Encode payload back to Base64
-        const updatedContent = Buffer.from(JSON.stringify(feed, null, 2)).toString('base64');
+        // Encode payload back to Base64 (using UTF-8 Buffer)
+        const updatedContent = Buffer.from(JSON.stringify(feed, null, 2), 'utf-8').toString('base64');
 
         console.log(`Committing updated feed to branch '${BRANCH}' (SHA: ${sha.substring(0, 7)})...`);
         const putRes = await fetch(`https://api.github.com/repos/${REPO}/contents/${FILE_PATH}`, {
