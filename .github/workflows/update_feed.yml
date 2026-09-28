@@ -1,0 +1,56 @@
+name: Scheduled Feed Dispatch Days Update
+
+on:
+  schedule:
+    # Run Friday at 00:00 UTC (Sets days_to_dispatch to 3)
+    - cron: '0 0 * * 5'
+    # Run Sunday at 00:00 UTC (Sets days_to_dispatch to 2)
+    - cron: '0 0 * * 0'
+
+  # Manual execution trigger for testing
+  workflow_dispatch:
+    inputs:
+      target_day:
+        description: 'Set target day manually'
+        required: true
+        default: 'friday'
+        type: choice
+        options:
+          - friday
+          - sunday
+
+permissions:
+  contents: write # Enables GITHUB_TOKEN to commit to repository branches
+
+jobs:
+  update-feed-branch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch and Update Remote Branch Feed
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FEED_BRANCH: 'feed'        # Branch where raw feed is served
+          FEED_PATH: 'feed.json'     # File name in the feed branch
+        run: |
+          # Determine target day from trigger event or calendar
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            DAY="${{ inputs.target_day }}"
+          else
+            DOW=$(date +%u)
+            if [ "$DOW" -eq 5 ]; then
+              DAY="friday"
+            else
+              DAY="sunday"
+            fi
+          fi
+
+          node update-dispatch.js "$DAY"
