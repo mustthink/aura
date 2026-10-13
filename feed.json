@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T11:55:55Z",
+  "updatedAt": "2026-10-13T12:10:06Z",
   "total": 2044,
   "data": [
     {
@@ -14532,7 +14532,7 @@
     },
     {
       "code": "70125А",
-      "price": 500,
+      "price": 700,
       "old_price": 600,
       "availability": true,
       "stock": 10,
