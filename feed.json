@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T12:10:06Z",
+  "updatedAt": "2026-10-13T14:32:38Z",
   "total": 2044,
   "data": [
     {
@@ -1636,14 +1636,14 @@
     },
     {
       "code": "564321717",
-      "price": 1099,
-      "old_price": 1318.8,
+      "price": 1701.5,
+      "old_price": 0,
       "availability": true,
-      "stock": 10,
+      "stock": 0,
       "warehouses": [
         {
           "id": "95",
-          "stock": 10
+          "stock": 0
         }
       ],
       "warranty_type": "merchant",
