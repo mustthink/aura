@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T12:31:26Z",
+  "updatedAt": "2026-10-13T11:53:37Z",
   "total": 2044,
   "data": [
     {
@@ -14564,8 +14564,8 @@
     },
     {
       "code": "70126А",
-      "price": 390,
-      "old_price": 468,
+      "price": 590,
+      "old_price": 868,
       "availability": true,
       "stock": 10,
       "warehouses": [
@@ -14884,8 +14884,8 @@
     },
     {
       "code": "7044А",
-      "price": 370,
-      "old_price": 444,
+      "price": 670,
+      "old_price": 1444,
       "availability": true,
       "stock": 10,
       "warehouses": [
@@ -14916,8 +14916,8 @@
     },
     {
       "code": "7045А",
-      "price": 380,
-      "old_price": 456,
+      "price": 680,
+      "old_price": 1456,
       "availability": true,
       "stock": 10,
       "warehouses": [
