@@ -992,7 +992,7 @@
           warranty_period: 12,
           max_pay_in_parts: 6,
           delivery_methods: defaultDeliveryMethods,
-          days_to_dispatch: 3,
+          days_to_dispatch: [5, 6].includes(new Date().getDay()) ? 3 : 2,
           manufacture: null
         };
 
