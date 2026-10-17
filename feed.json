@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T16:00:26Z",
+  "updatedAt": "2026-10-17T21:13:20Z",
   "total": 2335,
   "data": [
     {
@@ -2599,11 +2599,11 @@
       "price": 1470,
       "old_price": 2646,
       "availability": true,
-      "stock": 10,
+      "stock": 0,
       "warehouses": [
         {
           "id": "32",
-          "stock": 10
+          "stock": 0
         }
       ],
       "warranty_type": "merchant",
@@ -6023,11 +6023,11 @@
       "price": 3210,
       "old_price": 5778,
       "availability": true,
-      "stock": 10,
+      "stock": 0,
       "warehouses": [
         {
           "id": "32",
-          "stock": 10
+          "stock": 0
         }
       ],
       "warranty_type": "merchant",
@@ -9607,11 +9607,11 @@
       "price": 2520,
       "old_price": 4536,
       "availability": true,
-      "stock": 0,
+      "stock": 10,
       "warehouses": [
         {
           "id": "95",
-          "stock": 0
+          "stock": 10
         }
       ],
       "warranty_type": "merchant",
@@ -9639,11 +9639,11 @@
       "price": 2820,
       "old_price": 5076,
       "availability": true,
-      "stock": 10,
+      "stock": 0,
       "warehouses": [
         {
           "id": "95",
-          "stock": 10
+          "stock": 0
         }
       ],
       "warranty_type": "merchant",
@@ -10023,11 +10023,11 @@
       "price": 5020,
       "old_price": 9036,
       "availability": true,
-      "stock": 0,
+      "stock": 10,
       "warehouses": [
         {
           "id": "32",
-          "stock": 0
+          "stock": 10
         }
       ],
       "warranty_type": "merchant",
@@ -12231,11 +12231,11 @@
       "price": 1122,
       "old_price": 2019.6,
       "availability": true,
-      "stock": 0,
+      "stock": 10,
       "warehouses": [
         {
           "id": "32",
-          "stock": 0
+          "stock": 10
         }
       ],
       "warranty_type": "merchant",
@@ -32071,11 +32071,11 @@
       "price": 38006,
       "old_price": 68410.8,
       "availability": true,
-      "stock": 0,
+      "stock": 10,
       "warehouses": [
         {
           "id": "32",
-          "stock": 0
+          "stock": 10
         }
       ],
       "warranty_type": "merchant",
@@ -32103,11 +32103,11 @@
       "price": 13806,
       "old_price": 24850.8,
       "availability": true,
-      "stock": 10,
+      "stock": 0,
       "warehouses": [
         {
           "id": "32",
-          "stock": 10
+          "stock": 0
         }
       ],
       "warranty_type": "merchant",
@@ -35975,11 +35975,11 @@
       "price": 20306,
       "old_price": 36550.8,
       "availability": true,
-      "stock": 0,
+      "stock": 10,
       "warehouses": [
         {
           "id": "95",
-          "stock": 0
+          "stock": 10
         }
       ],
       "warranty_type": "merchant",
@@ -72133,7 +72133,7 @@
     {
       "code": "КК2Ф/242-17",
       "price": 3430,
-      "old_price": 6174,
+      "old_price": 3430,
       "availability": true,
       "stock": 10,
       "warehouses": [
