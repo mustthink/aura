@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-16T10:06:21Z",
-  "total": 2334,
+  "updatedAt": "2026-10-17T16:00:26Z",
+  "total": 2335,
   "data": [
     {
       "code": "255Р 2/45",
@@ -6019,6 +6019,38 @@
       "manufacture": null
     },
     {
+      "code": "648lroz",
+      "price": 3210,
+      "old_price": 5778,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "32",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 3,
+      "manufacture": null
+    },
+    {
       "code": "10663",
       "price": 2210,
       "old_price": 3978,
@@ -6954,7 +6986,7 @@
       "stock": 10,
       "warehouses": [
         {
-          "id": "32",
+          "id": "95",
           "stock": 10
         }
       ],
@@ -6986,7 +7018,7 @@
       "stock": 10,
       "warehouses": [
         {
-          "id": "95",
+          "id": "32",
           "stock": 10
         }
       ],
@@ -7530,7 +7562,7 @@
       "stock": 10,
       "warehouses": [
         {
-          "id": "32",
+          "id": "95",
           "stock": 10
         }
       ],
@@ -8714,7 +8746,7 @@
       "stock": 10,
       "warehouses": [
         {
-          "id": "95",
+          "id": "32",
           "stock": 10
         }
       ],
@@ -8842,7 +8874,7 @@
       "stock": 10,
       "warehouses": [
         {
-          "id": "32",
+          "id": "95",
           "stock": 10
         }
       ],
@@ -9575,11 +9607,11 @@
       "price": 2520,
       "old_price": 4536,
       "availability": true,
-      "stock": 10,
+      "stock": 0,
       "warehouses": [
         {
           "id": "95",
-          "stock": 10
+          "stock": 0
         }
       ],
       "warranty_type": "merchant",
@@ -9607,11 +9639,11 @@
       "price": 2820,
       "old_price": 5076,
       "availability": true,
-      "stock": 0,
+      "stock": 10,
       "warehouses": [
         {
           "id": "95",
-          "stock": 0
+          "stock": 10
         }
       ],
       "warranty_type": "merchant",
@@ -9706,7 +9738,7 @@
       "stock": 10,
       "warehouses": [
         {
-          "id": "95",
+          "id": "32",
           "stock": 10
         }
       ],
@@ -9991,11 +10023,11 @@
       "price": 5020,
       "old_price": 9036,
       "availability": true,
-      "stock": 10,
+      "stock": 0,
       "warehouses": [
         {
           "id": "32",
-          "stock": 10
+          "stock": 0
         }
       ],
       "warranty_type": "merchant",
@@ -10023,11 +10055,11 @@
       "price": 1220,
       "old_price": 2196,
       "availability": true,
-      "stock": 0,
+      "stock": 10,
       "warehouses": [
         {
           "id": "32",
-          "stock": 0
+          "stock": 10
         }
       ],
       "warranty_type": "merchant",
@@ -10186,7 +10218,7 @@
       "stock": 10,
       "warehouses": [
         {
-          "id": "32",
+          "id": "95",
           "stock": 10
         }
       ],
@@ -10858,7 +10890,7 @@
       "stock": 10,
       "warehouses": [
         {
-          "id": "95",
+          "id": "32",
           "stock": 10
         }
       ],
@@ -12199,11 +12231,11 @@
       "price": 1122,
       "old_price": 2019.6,
       "availability": true,
-      "stock": 10,
+      "stock": 0,
       "warehouses": [
         {
           "id": "32",
-          "stock": 10
+          "stock": 0
         }
       ],
       "warranty_type": "merchant",
@@ -12423,11 +12455,11 @@
       "price": 1522,
       "old_price": 2739.6,
       "availability": true,
-      "stock": 0,
+      "stock": 10,
       "warehouses": [
         {
           "id": "32",
-          "stock": 0
+          "stock": 10
         }
       ],
       "warranty_type": "merchant",
@@ -13322,7 +13354,7 @@
       "stock": 10,
       "warehouses": [
         {
-          "id": "32",
+          "id": "95",
           "stock": 10
         }
       ],
@@ -14058,7 +14090,7 @@
       "stock": 10,
       "warehouses": [
         {
-          "id": "95",
+          "id": "32",
           "stock": 10
         }
       ],
@@ -14698,7 +14730,7 @@
       "stock": 10,
       "warehouses": [
         {
-          "id": "32",
+          "id": "95",
           "stock": 10
         }
       ],
@@ -15178,7 +15210,7 @@
       "stock": 10,
       "warehouses": [
         {
-          "id": "95",
+          "id": "32",
           "stock": 10
         }
       ],
@@ -15818,7 +15850,7 @@
       "stock": 10,
       "warehouses": [
         {
-          "id": "32",
+          "id": "95",
           "stock": 10
         }
       ],
@@ -17930,7 +17962,7 @@
       "stock": 10,
       "warehouses": [
         {
-          "id": "95",
+          "id": "32",
           "stock": 10
         }
       ],
@@ -18314,7 +18346,7 @@
       "stock": 10,
       "warehouses": [
         {
-          "id": "32",
+          "id": "95",
           "stock": 10
         }
       ],
@@ -19786,7 +19818,7 @@
       "stock": 10,
       "warehouses": [
         {
-          "id": "95",
+          "id": "32",
           "stock": 10
         }
       ],
@@ -20202,7 +20234,7 @@
       "stock": 10,
       "warehouses": [
         {
-          "id": "32",
+          "id": "95",
           "stock": 10
         }
       ],
@@ -21802,7 +21834,7 @@
       "stock": 10,
       "warehouses": [
         {
-          "id": "95",
+          "id": "32",
           "stock": 10
         }
       ],
@@ -22570,7 +22602,7 @@
       "stock": 10,
       "warehouses": [
         {
-          "id": "32",
+          "id": "95",
           "stock": 10
         }
       ],
@@ -26506,7 +26538,7 @@
       "stock": 10,
       "warehouses": [
         {
-          "id": "95",
+          "id": "32",
           "stock": 10
         }
       ],
@@ -27210,7 +27242,7 @@
       "stock": 10,
       "warehouses": [
         {
-          "id": "32",
+          "id": "95",
           "stock": 10
         }
       ],
@@ -27626,7 +27658,7 @@
       "stock": 10,
       "warehouses": [
         {
-          "id": "95",
+          "id": "32",
           "stock": 10
         }
       ],
@@ -30506,7 +30538,7 @@
       "stock": 10,
       "warehouses": [
         {
-          "id": "32",
+          "id": "95",
           "stock": 10
         }
       ],
@@ -31978,7 +32010,7 @@
       "stock": 10,
       "warehouses": [
         {
-          "id": "95",
+          "id": "32",
           "stock": 10
         }
       ],
@@ -32039,11 +32071,11 @@
       "price": 38006,
       "old_price": 68410.8,
       "availability": true,
-      "stock": 10,
+      "stock": 0,
       "warehouses": [
         {
           "id": "32",
-          "stock": 10
+          "stock": 0
         }
       ],
       "warranty_type": "merchant",
@@ -32071,11 +32103,11 @@
       "price": 13806,
       "old_price": 24850.8,
       "availability": true,
-      "stock": 0,
+      "stock": 10,
       "warehouses": [
         {
           "id": "32",
-          "stock": 0
+          "stock": 10
         }
       ],
       "warranty_type": "merchant",
@@ -32618,7 +32650,7 @@
       "stock": 10,
       "warehouses": [
         {
-          "id": "32",
+          "id": "95",
           "stock": 10
         }
       ],
@@ -35943,11 +35975,11 @@
       "price": 20306,
       "old_price": 36550.8,
       "availability": true,
-      "stock": 10,
+      "stock": 0,
       "warehouses": [
         {
           "id": "95",
-          "stock": 10
+          "stock": 0
         }
       ],
       "warranty_type": "merchant",
@@ -35975,11 +36007,11 @@
       "price": 3006,
       "old_price": 5410.8,
       "availability": true,
-      "stock": 0,
+      "stock": 10,
       "warehouses": [
         {
           "id": "95",
-          "stock": 0
+          "stock": 10
         }
       ],
       "warranty_type": "merchant",
@@ -37866,7 +37898,7 @@
       "stock": 10,
       "warehouses": [
         {
-          "id": "95",
+          "id": "32",
           "stock": 10
         }
       ],
@@ -40618,7 +40650,7 @@
       "stock": 10,
       "warehouses": [
         {
-          "id": "32",
+          "id": "95",
           "stock": 10
         }
       ],
