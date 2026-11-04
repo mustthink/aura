@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-01T04:02:20Z",
-  "total": 2427,
+  "updatedAt": "2026-11-04T14:06:11Z",
+  "total": 2501,
   "data": [
     {
       "code": "255Р 2/45",
@@ -77638,6 +77638,2374 @@
       "code": "217384701",
       "price": 22761,
       "old_price": 40969.8,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "28А",
+      "price": 5500,
+      "old_price": 9900,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "28А1",
+      "price": 5500,
+      "old_price": 9900,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "28А2",
+      "price": 5500,
+      "old_price": 9900,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "28А3",
+      "price": 5500,
+      "old_price": 9900,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "28А4",
+      "price": 5500,
+      "old_price": 9900,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "28А5",
+      "price": 5500,
+      "old_price": 9900,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "28А6",
+      "price": 5500,
+      "old_price": 9900,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "28А7",
+      "price": 5500,
+      "old_price": 9900,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "56 кА",
+      "price": 4480,
+      "old_price": 8064,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "56 кА1",
+      "price": 4480,
+      "old_price": 8064,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "56 кА2",
+      "price": 4480,
+      "old_price": 8064,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "56 кА3",
+      "price": 4480,
+      "old_price": 8064,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "56 кА4",
+      "price": 4480,
+      "old_price": 8064,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "42 сА",
+      "price": 7300,
+      "old_price": 13140,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "280А",
+      "price": 7000,
+      "old_price": 12600,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "280А1",
+      "price": 7000,
+      "old_price": 12600,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "280А2",
+      "price": 7000,
+      "old_price": 12600,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "280А3",
+      "price": 7000,
+      "old_price": 12600,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "280А4",
+      "price": 7000,
+      "old_price": 12600,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "281А",
+      "price": 3909,
+      "old_price": 7036.2,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "465А",
+      "price": 6500,
+      "old_price": 11700,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "465А1",
+      "price": 6500,
+      "old_price": 11700,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "465А2",
+      "price": 6500,
+      "old_price": 11700,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "465А3",
+      "price": 6500,
+      "old_price": 11700,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "465А4",
+      "price": 6500,
+      "old_price": 11700,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "465А5",
+      "price": 6500,
+      "old_price": 11700,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "465А6",
+      "price": 6500,
+      "old_price": 11700,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "479А",
+      "price": 1900,
+      "old_price": 3420,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "479А1",
+      "price": 1900,
+      "old_price": 3420,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "479А2",
+      "price": 1900,
+      "old_price": 3420,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "479А3",
+      "price": 1900,
+      "old_price": 3420,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "479А4",
+      "price": 1900,
+      "old_price": 3420,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "479А5",
+      "price": 1900,
+      "old_price": 3420,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "479А6",
+      "price": 1900,
+      "old_price": 3420,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "321А",
+      "price": 2790,
+      "old_price": 5022,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "358пА",
+      "price": 2350,
+      "old_price": 4230,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "473/1А",
+      "price": 1780,
+      "old_price": 3204,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "473/1А1",
+      "price": 1780,
+      "old_price": 3204,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "473/1А2",
+      "price": 1780,
+      "old_price": 3204,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "473/1А3",
+      "price": 1780,
+      "old_price": 3204,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "473/1А4",
+      "price": 1780,
+      "old_price": 3204,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "473/1А5",
+      "price": 1780,
+      "old_price": 3204,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "473/1А6",
+      "price": 1780,
+      "old_price": 3204,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "473/1А7",
+      "price": 1780,
+      "old_price": 3204,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "473/1А8",
+      "price": 1780,
+      "old_price": 3204,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "473/1А9",
+      "price": 1780,
+      "old_price": 3204,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "481А",
+      "price": 1190,
+      "old_price": 2142,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "481А1",
+      "price": 1190,
+      "old_price": 2142,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "481А2",
+      "price": 1190,
+      "old_price": 2142,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "481А3",
+      "price": 1190,
+      "old_price": 2142,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "481А4",
+      "price": 1190,
+      "old_price": 2142,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "481А5",
+      "price": 1190,
+      "old_price": 2142,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "481А6",
+      "price": 1190,
+      "old_price": 2142,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "481А7",
+      "price": 1190,
+      "old_price": 2142,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "551А",
+      "price": 3990,
+      "old_price": 7182,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "551А1",
+      "price": 3990,
+      "old_price": 7182,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "551А2",
+      "price": 3990,
+      "old_price": 7182,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "551А3",
+      "price": 3990,
+      "old_price": 7182,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "551А4",
+      "price": 3990,
+      "old_price": 7182,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "573А",
+      "price": 2950,
+      "old_price": 5310,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "586А",
+      "price": 1550,
+      "old_price": 2790,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "589А",
+      "price": 1799,
+      "old_price": 3238.2,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "446А",
+      "price": 3800,
+      "old_price": 6840,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "446А1",
+      "price": 3800,
+      "old_price": 6840,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "446А2",
+      "price": 3800,
+      "old_price": 6840,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "446А3",
+      "price": 3800,
+      "old_price": 6840,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "446А4",
+      "price": 3800,
+      "old_price": 6840,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "446А5",
+      "price": 3800,
+      "old_price": 6840,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "446А6",
+      "price": 3800,
+      "old_price": 6840,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "1226/1-5,0 Ag",
+      "price": 7700,
+      "old_price": 13860,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "1226-5,0 Ag",
+      "price": 6700,
+      "old_price": 12060,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "1212Ag",
+      "price": 970,
+      "old_price": 1746,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "714А",
+      "price": 1900,
+      "old_price": 3420,
+      "availability": true,
+      "stock": 10,
+      "warehouses": [
+        {
+          "id": "95",
+          "stock": 10
+        }
+      ],
+      "warranty_type": "merchant",
+      "warranty_period": 12,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 2,
+      "manufacture": null
+    },
+    {
+      "code": "1055-2.0 Ag",
+      "price": 1390,
+      "old_price": 2502,
       "availability": true,
       "stock": 10,
       "warehouses": [
