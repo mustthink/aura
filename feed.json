@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T11:51:02Z",
+  "updatedAt": "2026-11-06T12:41:00Z",
   "total": 2497,
   "data": [
     {
@@ -12103,11 +12103,11 @@
       "price": 1522,
       "old_price": 2739.6,
       "availability": true,
-      "stock": 0,
+      "stock": 10,
       "warehouses": [
         {
           "id": "32",
-          "stock": 0
+          "stock": 10
         }
       ],
       "warranty_type": "merchant",
@@ -12135,11 +12135,11 @@
       "price": 1522,
       "old_price": 2739.6,
       "availability": true,
-      "stock": 0,
+      "stock": 10,
       "warehouses": [
         {
           "id": "32",
-          "stock": 0
+          "stock": 10
         }
       ],
       "warranty_type": "merchant",
@@ -12167,11 +12167,11 @@
       "price": 1522,
       "old_price": 2739.6,
       "availability": true,
-      "stock": 0,
+      "stock": 10,
       "warehouses": [
         {
           "id": "32",
-          "stock": 0
+          "stock": 10
         }
       ],
       "warranty_type": "merchant",
@@ -12199,11 +12199,11 @@
       "price": 1522,
       "old_price": 2739.6,
       "availability": true,
-      "stock": 0,
+      "stock": 10,
       "warehouses": [
         {
           "id": "32",
-          "stock": 0
+          "stock": 10
         }
       ],
       "warranty_type": "merchant",
@@ -12231,11 +12231,11 @@
       "price": 1522,
       "old_price": 2739.6,
       "availability": true,
-      "stock": 0,
+      "stock": 10,
       "warehouses": [
         {
           "id": "32",
-          "stock": 0
+          "stock": 10
         }
       ],
       "warranty_type": "merchant",
@@ -12263,11 +12263,11 @@
       "price": 1522,
       "old_price": 2739.6,
       "availability": true,
-      "stock": 0,
+      "stock": 10,
       "warehouses": [
         {
           "id": "32",
-          "stock": 0
+          "stock": 10
         }
       ],
       "warranty_type": "merchant",
@@ -12295,11 +12295,11 @@
       "price": 1522,
       "old_price": 2739.6,
       "availability": true,
-      "stock": 0,
+      "stock": 10,
       "warehouses": [
         {
           "id": "32",
-          "stock": 0
+          "stock": 10
         }
       ],
       "warranty_type": "merchant",
