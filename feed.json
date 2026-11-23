@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T10:03:15Z",
+  "updatedAt": "2026-11-23T10:31:29Z",
   "total": 3026,
   "data": [
     {
@@ -80932,7 +80932,7 @@
     },
     {
       "code": "20865zA+39168zA",
-      "price": 4,
+      "price": 4753,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -80964,7 +80964,7 @@
     },
     {
       "code": "10451А+20845А",
-      "price": 3,
+      "price": 3140,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -80996,7 +80996,7 @@
     },
     {
       "code": "10451А+20845А1",
-      "price": 3,
+      "price": 3140,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81028,7 +81028,7 @@
     },
     {
       "code": "10451А+20845А2",
-      "price": 3,
+      "price": 3140,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81060,7 +81060,7 @@
     },
     {
       "code": "10451А+20845А3",
-      "price": 3,
+      "price": 3140,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81092,7 +81092,7 @@
     },
     {
       "code": "10451А+20845А4",
-      "price": 3,
+      "price": 3140,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81124,7 +81124,7 @@
     },
     {
       "code": "10451А+20845А5",
-      "price": 3,
+      "price": 3140,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81156,7 +81156,7 @@
     },
     {
       "code": "10451А+20845А6",
-      "price": 3,
+      "price": 3140,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81188,7 +81188,7 @@
     },
     {
       "code": "39154А+20846А",
-      "price": 2,
+      "price": 2951,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81220,7 +81220,7 @@
     },
     {
       "code": "39154А+10745А+20846А",
-      "price": 4,
+      "price": 4153,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81252,7 +81252,7 @@
     },
     {
       "code": "39154А+10745А+20846А3",
-      "price": 4,
+      "price": 4153,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81284,7 +81284,7 @@
     },
     {
       "code": "39154А+10745А+20846А1",
-      "price": 4,
+      "price": 4153,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81316,7 +81316,7 @@
     },
     {
       "code": "39154А+10745А+20846А2",
-      "price": 4,
+      "price": 4153,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81348,7 +81348,7 @@
     },
     {
       "code": "10555chrА+6148_50chА",
-      "price": 4,
+      "price": 4728,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81380,7 +81380,7 @@
     },
     {
       "code": "10555chrА+6148_50chА1",
-      "price": 4,
+      "price": 4728,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81412,7 +81412,7 @@
     },
     {
       "code": "10555chrА+6148_50chА2",
-      "price": 4,
+      "price": 4728,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81444,7 +81444,7 @@
     },
     {
       "code": "10555chrА+6148_50chА3",
-      "price": 4,
+      "price": 4728,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81476,7 +81476,7 @@
     },
     {
       "code": "10555chrА+6148_50chА4",
-      "price": 4,
+      "price": 4728,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81508,7 +81508,7 @@
     },
     {
       "code": "10555chrА+20555chrА+6148_50chА",
-      "price": 6,
+      "price": 6241,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81540,7 +81540,7 @@
     },
     {
       "code": "10555chrА+20555chrА+6148_50chА1",
-      "price": 6,
+      "price": 6241,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81572,7 +81572,7 @@
     },
     {
       "code": "10555chrА+20555chrА+6148_50chА2",
-      "price": 6,
+      "price": 6241,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81604,7 +81604,7 @@
     },
     {
       "code": "10555chrА+20555chrА+6148_50chА3",
-      "price": 6,
+      "price": 6241,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81636,7 +81636,7 @@
     },
     {
       "code": "10555chrА+20555chrА+6148_50chА4",
-      "price": 6,
+      "price": 6241,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81668,7 +81668,7 @@
     },
     {
       "code": "20560А+39118А",
-      "price": 3,
+      "price": 3864,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81700,7 +81700,7 @@
     },
     {
       "code": "10745А+20794А",
-      "price": 3,
+      "price": 3771,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81732,7 +81732,7 @@
     },
     {
       "code": "10745А+20794А1",
-      "price": 3,
+      "price": 3771,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81764,7 +81764,7 @@
     },
     {
       "code": "10745А+20794А2",
-      "price": 3,
+      "price": 3771,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81796,7 +81796,7 @@
     },
     {
       "code": "10745А+20794А3",
-      "price": 3,
+      "price": 3771,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81828,7 +81828,7 @@
     },
     {
       "code": "39137А+10745А+20794А",
-      "price": 4,
+      "price": 4611,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81860,7 +81860,7 @@
     },
     {
       "code": "39137А+10745А+20794А1",
-      "price": 4,
+      "price": 4611,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81892,7 +81892,7 @@
     },
     {
       "code": "39137А+10745А+20794А2",
-      "price": 4,
+      "price": 4611,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81924,7 +81924,7 @@
     },
     {
       "code": "39137А+10745А+20794А3",
-      "price": 4,
+      "price": 4611,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81956,7 +81956,7 @@
     },
     {
       "code": "2900А+10722А",
-      "price": 3,
+      "price": 3059,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -81988,7 +81988,7 @@
     },
     {
       "code": "2900А+10722А1",
-      "price": 3,
+      "price": 3059,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82020,7 +82020,7 @@
     },
     {
       "code": "2900А+10722А2",
-      "price": 3,
+      "price": 3059,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82052,7 +82052,7 @@
     },
     {
       "code": "2900А+10722А3",
-      "price": 3,
+      "price": 3059,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82084,7 +82084,7 @@
     },
     {
       "code": "2900А+10722А4",
-      "price": 3,
+      "price": 3059,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82116,7 +82116,7 @@
     },
     {
       "code": "2900А+10722А5",
-      "price": 3,
+      "price": 3059,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82148,7 +82148,7 @@
     },
     {
       "code": "2900А+10722А6",
-      "price": 3,
+      "price": 3059,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82180,7 +82180,7 @@
     },
     {
       "code": "2900А+10722А7",
-      "price": 3,
+      "price": 3059,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82212,7 +82212,7 @@
     },
     {
       "code": "20782А+10722А",
-      "price": 3,
+      "price": 3372,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82244,7 +82244,7 @@
     },
     {
       "code": "20782А+10722А1",
-      "price": 3,
+      "price": 3372,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82276,7 +82276,7 @@
     },
     {
       "code": "20782А+10722А2",
-      "price": 3,
+      "price": 3372,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82308,7 +82308,7 @@
     },
     {
       "code": "20782А+10722А3",
-      "price": 3,
+      "price": 3372,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82340,7 +82340,7 @@
     },
     {
       "code": "20782А+10722А4",
-      "price": 3,
+      "price": 3372,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82372,7 +82372,7 @@
     },
     {
       "code": "20782А+10722А5",
-      "price": 3,
+      "price": 3372,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82404,7 +82404,7 @@
     },
     {
       "code": "20782А+10722А6",
-      "price": 3,
+      "price": 3372,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82436,7 +82436,7 @@
     },
     {
       "code": "20782А+10722А7",
-      "price": 3,
+      "price": 3372,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82468,7 +82468,7 @@
     },
     {
       "code": "21420А+10420chА",
-      "price": 3,
+      "price": 3458,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82500,7 +82500,7 @@
     },
     {
       "code": "21420А+10420chА1",
-      "price": 3,
+      "price": 3458,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82532,7 +82532,7 @@
     },
     {
       "code": "21420А+10420chА2",
-      "price": 3,
+      "price": 3458,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82564,7 +82564,7 @@
     },
     {
       "code": "21420А+10420chА3",
-      "price": 3,
+      "price": 3458,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82596,7 +82596,7 @@
     },
     {
       "code": "21420А+10420chА4",
-      "price": 3,
+      "price": 3458,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82628,7 +82628,7 @@
     },
     {
       "code": "21420А+10420chА5",
-      "price": 3,
+      "price": 3458,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82660,7 +82660,7 @@
     },
     {
       "code": "21420А+10420chА6",
-      "price": 3,
+      "price": 3458,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82692,7 +82692,7 @@
     },
     {
       "code": "20101+10441А",
-      "price": 2,
+      "price": 2417,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82724,7 +82724,7 @@
     },
     {
       "code": "20101+10441А1",
-      "price": 2,
+      "price": 2417,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82756,7 +82756,7 @@
     },
     {
       "code": "20101+10441А2",
-      "price": 2,
+      "price": 2417,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82788,7 +82788,7 @@
     },
     {
       "code": "20101+10441А3",
-      "price": 2,
+      "price": 2417,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82820,7 +82820,7 @@
     },
     {
       "code": "20101+10441А4",
-      "price": 2,
+      "price": 2417,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82852,7 +82852,7 @@
     },
     {
       "code": "20101+10441А5",
-      "price": 2,
+      "price": 2417,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82884,7 +82884,7 @@
     },
     {
       "code": "20101+10441А6",
-      "price": 2,
+      "price": 2417,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82916,7 +82916,7 @@
     },
     {
       "code": "10658+20758А",
-      "price": 3,
+      "price": 3930,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82948,7 +82948,7 @@
     },
     {
       "code": "10658+20758А1",
-      "price": 3,
+      "price": 3930,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -82980,7 +82980,7 @@
     },
     {
       "code": "10658+20758А2",
-      "price": 3,
+      "price": 3930,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83012,7 +83012,7 @@
     },
     {
       "code": "10658+20758А3",
-      "price": 3,
+      "price": 3930,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83044,7 +83044,7 @@
     },
     {
       "code": "10658+20758А4",
-      "price": 3,
+      "price": 3930,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83076,7 +83076,7 @@
     },
     {
       "code": "10658+20758А5",
-      "price": 3,
+      "price": 3930,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83108,7 +83108,7 @@
     },
     {
       "code": "10658+20758А6",
-      "price": 3,
+      "price": 3930,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83140,7 +83140,7 @@
     },
     {
       "code": "20601+30170А",
-      "price": 3,
+      "price": 3483,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83172,7 +83172,7 @@
     },
     {
       "code": "20627+30170А",
-      "price": 2,
+      "price": 2919,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83204,7 +83204,7 @@
     },
     {
       "code": "20413+3556chbА",
-      "price": 3,
+      "price": 3483,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83236,7 +83236,7 @@
     },
     {
       "code": "6262+20635А",
-      "price": 3,
+      "price": 3660,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83268,7 +83268,7 @@
     },
     {
       "code": "6262+20644А",
-      "price": 4,
+      "price": 4500,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83300,7 +83300,7 @@
     },
     {
       "code": "20821+6465_45golА",
-      "price": 3,
+      "price": 3130,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83332,7 +83332,7 @@
     },
     {
       "code": "20855+10750А",
-      "price": 5,
+      "price": 5133,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83364,7 +83364,7 @@
     },
     {
       "code": "20855+10750А1",
-      "price": 5,
+      "price": 5133,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83396,7 +83396,7 @@
     },
     {
       "code": "20855+10750А2",
-      "price": 5,
+      "price": 5133,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83428,7 +83428,7 @@
     },
     {
       "code": "10713eА+20742eА",
-      "price": 3,
+      "price": 3410,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83460,7 +83460,7 @@
     },
     {
       "code": "10713eА+20742eА1",
-      "price": 3,
+      "price": 3410,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83492,7 +83492,7 @@
     },
     {
       "code": "10713eА+20742eА2",
-      "price": 3,
+      "price": 3410,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83524,7 +83524,7 @@
     },
     {
       "code": "10713eА+20742eА3",
-      "price": 3,
+      "price": 3410,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83556,7 +83556,7 @@
     },
     {
       "code": "10713eА+20742eА4",
-      "price": 3,
+      "price": 3410,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83588,7 +83588,7 @@
     },
     {
       "code": "10713eА+20742eА5",
-      "price": 3,
+      "price": 3410,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83620,7 +83620,7 @@
     },
     {
       "code": "10713eА+20742eА6",
-      "price": 3,
+      "price": 3410,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83652,7 +83652,7 @@
     },
     {
       "code": "10713eА+20742eА7",
-      "price": 3,
+      "price": 3410,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83684,7 +83684,7 @@
     },
     {
       "code": "10713eА+20742eА8",
-      "price": 3,
+      "price": 3410,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83716,7 +83716,7 @@
     },
     {
       "code": "10713eА+20742eА9",
-      "price": 3,
+      "price": 3410,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83748,7 +83748,7 @@
     },
     {
       "code": "10713eА+20742eА0",
-      "price": 3,
+      "price": 3410,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83780,7 +83780,7 @@
     },
     {
       "code": "10713e+20704eА",
-      "price": 4,
+      "price": 4020,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83812,7 +83812,7 @@
     },
     {
       "code": "10713e+20704eА1",
-      "price": 4,
+      "price": 4020,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83844,7 +83844,7 @@
     },
     {
       "code": "10713e+20704eА2",
-      "price": 4,
+      "price": 4020,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83876,7 +83876,7 @@
     },
     {
       "code": "10713e+20704eА3",
-      "price": 4,
+      "price": 4020,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83908,7 +83908,7 @@
     },
     {
       "code": "10713e+20704eА4",
-      "price": 4,
+      "price": 4020,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83940,7 +83940,7 @@
     },
     {
       "code": "10713e+20704eА5",
-      "price": 4,
+      "price": 4020,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -83972,7 +83972,7 @@
     },
     {
       "code": "10713e+20704eА6",
-      "price": 4,
+      "price": 4020,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84004,7 +84004,7 @@
     },
     {
       "code": "10713e+20704eА7",
-      "price": 4,
+      "price": 4020,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84036,7 +84036,7 @@
     },
     {
       "code": "10713e+20704eА8",
-      "price": 4,
+      "price": 4020,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84068,7 +84068,7 @@
     },
     {
       "code": "10713e+20704eА9",
-      "price": 4,
+      "price": 4020,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84100,7 +84100,7 @@
     },
     {
       "code": "10713e+20704eА0",
-      "price": 4,
+      "price": 4020,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84132,7 +84132,7 @@
     },
     {
       "code": "20643+10536А",
-      "price": 2,
+      "price": 2486,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84164,7 +84164,7 @@
     },
     {
       "code": "20643+10536А1",
-      "price": 2,
+      "price": 2486,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84196,7 +84196,7 @@
     },
     {
       "code": "20643+10536А2",
-      "price": 2,
+      "price": 2486,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84228,7 +84228,7 @@
     },
     {
       "code": "20643+10536А3",
-      "price": 2,
+      "price": 2486,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84260,7 +84260,7 @@
     },
     {
       "code": "20649+10649А",
-      "price": 2,
+      "price": 2486,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84292,7 +84292,7 @@
     },
     {
       "code": "20649+10649А1",
-      "price": 2,
+      "price": 2486,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84324,7 +84324,7 @@
     },
     {
       "code": "20649+10649А2",
-      "price": 2,
+      "price": 2486,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84356,7 +84356,7 @@
     },
     {
       "code": "20649+10649А3",
-      "price": 2,
+      "price": 2486,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84388,7 +84388,7 @@
     },
     {
       "code": "20649+10649А4",
-      "price": 2,
+      "price": 2486,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84420,7 +84420,7 @@
     },
     {
       "code": "20649+10649А5",
-      "price": 2,
+      "price": 2486,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84452,7 +84452,7 @@
     },
     {
       "code": "20649+10649А6",
-      "price": 2,
+      "price": 2486,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84484,7 +84484,7 @@
     },
     {
       "code": "20649+10649А7",
-      "price": 2,
+      "price": 2486,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84516,7 +84516,7 @@
     },
     {
       "code": "20691e+10520еА",
-      "price": 3,
+      "price": 3390,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84548,7 +84548,7 @@
     },
     {
       "code": "20691e+10520еА1",
-      "price": 3,
+      "price": 3390,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84580,7 +84580,7 @@
     },
     {
       "code": "20691e+10520еА2",
-      "price": 3,
+      "price": 3390,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84612,7 +84612,7 @@
     },
     {
       "code": "20691e+10520еА3",
-      "price": 3,
+      "price": 3390,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84644,7 +84644,7 @@
     },
     {
       "code": "20691e+10520еА4",
-      "price": 3,
+      "price": 3390,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84676,7 +84676,7 @@
     },
     {
       "code": "20691e+10520еА5",
-      "price": 3,
+      "price": 3390,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84708,7 +84708,7 @@
     },
     {
       "code": "20600e+10520еА",
-      "price": 3,
+      "price": 3557,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84740,7 +84740,7 @@
     },
     {
       "code": "20600e+10520еА1",
-      "price": 3,
+      "price": 3557,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84772,7 +84772,7 @@
     },
     {
       "code": "20600e+10520еА2",
-      "price": 3,
+      "price": 3557,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84804,7 +84804,7 @@
     },
     {
       "code": "20600e+10520еА3",
-      "price": 3,
+      "price": 3557,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84836,7 +84836,7 @@
     },
     {
       "code": "20600e+10520еА4",
-      "price": 3,
+      "price": 3557,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84868,7 +84868,7 @@
     },
     {
       "code": "20600e+10520еА5",
-      "price": 3,
+      "price": 3557,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84900,7 +84900,7 @@
     },
     {
       "code": "30023+20359А",
-      "price": 2,
+      "price": 2923,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84932,7 +84932,7 @@
     },
     {
       "code": "10523+20359A",
-      "price": 3,
+      "price": 3575,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84964,7 +84964,7 @@
     },
     {
       "code": "10523+20359A1",
-      "price": 3,
+      "price": 3575,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -84996,7 +84996,7 @@
     },
     {
       "code": "10523+20359A2",
-      "price": 3,
+      "price": 3575,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85028,7 +85028,7 @@
     },
     {
       "code": "10523+20359A3",
-      "price": 3,
+      "price": 3575,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85060,7 +85060,7 @@
     },
     {
       "code": "10523+20359A4",
-      "price": 3,
+      "price": 3575,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85092,7 +85092,7 @@
     },
     {
       "code": "10523+20359A5",
-      "price": 3,
+      "price": 3575,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85124,7 +85124,7 @@
     },
     {
       "code": "10523+20359A6",
-      "price": 3,
+      "price": 3575,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85156,7 +85156,7 @@
     },
     {
       "code": "30023+10523+20359А",
-      "price": 4,
+      "price": 4280,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85188,7 +85188,7 @@
     },
     {
       "code": "30023+10523+20359А1",
-      "price": 4,
+      "price": 4280,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85220,7 +85220,7 @@
     },
     {
       "code": "30023+10523+20359А2",
-      "price": 4,
+      "price": 4280,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85252,7 +85252,7 @@
     },
     {
       "code": "30023+10523+20359А3",
-      "price": 4,
+      "price": 4280,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85284,7 +85284,7 @@
     },
     {
       "code": "30023+10523+20359А4",
-      "price": 4,
+      "price": 4280,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85316,7 +85316,7 @@
     },
     {
       "code": "30023+10523+20359А5",
-      "price": 4,
+      "price": 4280,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85348,7 +85348,7 @@
     },
     {
       "code": "30023+10523+20359А6",
-      "price": 4,
+      "price": 4280,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85380,7 +85380,7 @@
     },
     {
       "code": "4323+10523А",
-      "price": 3,
+      "price": 3211,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85412,7 +85412,7 @@
     },
     {
       "code": "4323+10523А1",
-      "price": 3,
+      "price": 3211,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85444,7 +85444,7 @@
     },
     {
       "code": "4323+10523А2",
-      "price": 3,
+      "price": 3211,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85476,7 +85476,7 @@
     },
     {
       "code": "4323+10523А3",
-      "price": 3,
+      "price": 3211,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85508,7 +85508,7 @@
     },
     {
       "code": "4323+10523А4",
-      "price": 3,
+      "price": 3211,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85540,7 +85540,7 @@
     },
     {
       "code": "4323+10523А5",
-      "price": 3,
+      "price": 3211,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85572,7 +85572,7 @@
     },
     {
       "code": "4323+10523А6",
-      "price": 3,
+      "price": 3211,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85604,7 +85604,7 @@
     },
     {
       "code": "4323а+20359А",
-      "price": 3,
+      "price": 3305,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85636,7 +85636,7 @@
     },
     {
       "code": "30023А+10523А+20359А+4323А",
-      "price": 5,
+      "price": 5366,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85668,7 +85668,7 @@
     },
     {
       "code": "30023А+10523А+20359А+4323А1",
-      "price": 5,
+      "price": 5366,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85700,7 +85700,7 @@
     },
     {
       "code": "30023А+10523А+20359А+4323А2",
-      "price": 5,
+      "price": 5366,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85732,7 +85732,7 @@
     },
     {
       "code": "30023А+10523А+20359А+4323А3",
-      "price": 5,
+      "price": 5366,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85764,7 +85764,7 @@
     },
     {
       "code": "30023А+10523А+20359А+4323А4",
-      "price": 5,
+      "price": 5366,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85796,7 +85796,7 @@
     },
     {
       "code": "30023А+10523А+20359А+4323А5",
-      "price": 5,
+      "price": 5366,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85828,7 +85828,7 @@
     },
     {
       "code": "30023А+10523А+20359А+4323А6",
-      "price": 5,
+      "price": 5366,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85860,7 +85860,7 @@
     },
     {
       "code": "30316bА+20590bА+40316bА",
-      "price": 6,
+      "price": 6134,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85892,7 +85892,7 @@
     },
     {
       "code": "30316bА+20354bА",
-      "price": 3,
+      "price": 3430,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85924,7 +85924,7 @@
     },
     {
       "code": "30316bА+20590bА",
-      "price": 4,
+      "price": 4044,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85956,7 +85956,7 @@
     },
     {
       "code": "20354chА+10353chА",
-      "price": 4,
+      "price": 4450,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -85988,7 +85988,7 @@
     },
     {
       "code": "20354chА+10353chА1",
-      "price": 4,
+      "price": 4450,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86020,7 +86020,7 @@
     },
     {
       "code": "10745А+20846А",
-      "price": 3,
+      "price": 3351,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86052,7 +86052,7 @@
     },
     {
       "code": "10745А+20846А2",
-      "price": 3,
+      "price": 3351,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86084,7 +86084,7 @@
     },
     {
       "code": "10745А+20846А3",
-      "price": 3,
+      "price": 3351,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86116,7 +86116,7 @@
     },
     {
       "code": "10745А+20846А4",
-      "price": 3,
+      "price": 3351,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86148,7 +86148,7 @@
     },
     {
       "code": "20555chrА+6148_50chА",
-      "price": 4,
+      "price": 4480,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86180,7 +86180,7 @@
     },
     {
       "code": "30316chА+20354chА+10353chА",
-      "price": 5,
+      "price": 5431,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86212,7 +86212,7 @@
     },
     {
       "code": "30316chА+20354chА+10353chА1",
-      "price": 5,
+      "price": 5431,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86244,7 +86244,7 @@
     },
     {
       "code": "30316chА+20354chА+10353chА2",
-      "price": 5,
+      "price": 5431,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86276,7 +86276,7 @@
     },
     {
       "code": "30316chА+20354chА+10353chА3",
-      "price": 5,
+      "price": 5431,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86308,7 +86308,7 @@
     },
     {
       "code": "30316chА+20354chА+10353chА4",
-      "price": 5,
+      "price": 5431,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86340,7 +86340,7 @@
     },
     {
       "code": "30316chА+20354chА+10353chА5",
-      "price": 5,
+      "price": 5431,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86372,7 +86372,7 @@
     },
     {
       "code": "30316chА+20354chА+10353chА6",
-      "price": 5,
+      "price": 5431,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86404,7 +86404,7 @@
     },
     {
       "code": "30316chА+20354chА+10353chА7",
-      "price": 5,
+      "price": 5431,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86436,7 +86436,7 @@
     },
     {
       "code": "30316chА+20354chА+10353chА8",
-      "price": 5,
+      "price": 5431,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86468,7 +86468,7 @@
     },
     {
       "code": "20590chА+10353chА",
-      "price": 5,
+      "price": 5064,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86500,7 +86500,7 @@
     },
     {
       "code": "20590chА+10353chА2",
-      "price": 5,
+      "price": 5064,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86532,7 +86532,7 @@
     },
     {
       "code": "20590chА+10353chА3",
-      "price": 5,
+      "price": 5064,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86564,7 +86564,7 @@
     },
     {
       "code": "20590chА+10353chА4",
-      "price": 5,
+      "price": 5064,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86596,7 +86596,7 @@
     },
     {
       "code": "20590chА+10353chА5",
-      "price": 5,
+      "price": 5064,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86628,7 +86628,7 @@
     },
     {
       "code": "20590chА+10353chА6",
-      "price": 5,
+      "price": 5064,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86660,7 +86660,7 @@
     },
     {
       "code": "20590chА+10353chА7",
-      "price": 5,
+      "price": 5064,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86692,7 +86692,7 @@
     },
     {
       "code": "20590chА+10353chА8",
-      "price": 5,
+      "price": 5064,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86724,7 +86724,7 @@
     },
     {
       "code": "20590chА+10353chА9",
-      "price": 5,
+      "price": 5064,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86756,7 +86756,7 @@
     },
     {
       "code": "30316chА+20590chА+10353chА",
-      "price": 6,
+      "price": 6045,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86788,7 +86788,7 @@
     },
     {
       "code": "30316chА+20590chА+10353chА1",
-      "price": 6,
+      "price": 6045,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86820,7 +86820,7 @@
     },
     {
       "code": "30316chА+20590chА+10353chА2",
-      "price": 6,
+      "price": 6045,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86852,7 +86852,7 @@
     },
     {
       "code": "30316chА+20590chА+10353chА3",
-      "price": 6,
+      "price": 6045,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86884,7 +86884,7 @@
     },
     {
       "code": "30316chА+20590chА+10353chА4",
-      "price": 6,
+      "price": 6045,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86916,7 +86916,7 @@
     },
     {
       "code": "30316chА+20590chА+10353chА5",
-      "price": 6,
+      "price": 6045,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86948,7 +86948,7 @@
     },
     {
       "code": "30316chА+20590chА+10353chА6",
-      "price": 6,
+      "price": 6045,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -86980,7 +86980,7 @@
     },
     {
       "code": "30316chА+20590chА+10353chА7",
-      "price": 6,
+      "price": 6045,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87012,7 +87012,7 @@
     },
     {
       "code": "30316chА+20590chА+10353chА9",
-      "price": 6,
+      "price": 6045,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87044,7 +87044,7 @@
     },
     {
       "code": "10527ebirА+20589ebirА",
-      "price": 3,
+      "price": 3315,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87076,7 +87076,7 @@
     },
     {
       "code": "10527ebirА+20589ebirА1",
-      "price": 3,
+      "price": 3315,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87108,7 +87108,7 @@
     },
     {
       "code": "10527ebirА+20589ebirА2",
-      "price": 3,
+      "price": 3315,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87140,7 +87140,7 @@
     },
     {
       "code": "10527ebirА+20589ebirА3",
-      "price": 3,
+      "price": 3315,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87172,7 +87172,7 @@
     },
     {
       "code": "10527ebirА+20589ebirА4",
-      "price": 3,
+      "price": 3315,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87204,7 +87204,7 @@
     },
     {
       "code": "10527ebirА+20589ebirА5",
-      "price": 3,
+      "price": 3315,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87236,7 +87236,7 @@
     },
     {
       "code": "10527ebirА+20589ebirА6",
-      "price": 3,
+      "price": 3315,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87268,7 +87268,7 @@
     },
     {
       "code": "10527ebirА+20589ebirА7",
-      "price": 3,
+      "price": 3315,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87300,7 +87300,7 @@
     },
     {
       "code": "10527ebirА+20589ebirА8",
-      "price": 3,
+      "price": 3315,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87332,7 +87332,7 @@
     },
     {
       "code": "10518А+20655А",
-      "price": 3,
+      "price": 3223,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87364,7 +87364,7 @@
     },
     {
       "code": "10518А+20655А1",
-      "price": 3,
+      "price": 3223,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87396,7 +87396,7 @@
     },
     {
       "code": "10518А+20655А2",
-      "price": 3,
+      "price": 3223,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87428,7 +87428,7 @@
     },
     {
       "code": "10518А+20655А3",
-      "price": 3,
+      "price": 3223,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87460,7 +87460,7 @@
     },
     {
       "code": "10518А+20655А4",
-      "price": 3,
+      "price": 3223,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87492,7 +87492,7 @@
     },
     {
       "code": "10594chbА+30594chbА",
-      "price": 3,
+      "price": 3927,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87524,7 +87524,7 @@
     },
     {
       "code": "10594chbА+30594chbА1",
-      "price": 3,
+      "price": 3927,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87556,7 +87556,7 @@
     },
     {
       "code": "10594chbА+30594chbА2",
-      "price": 3,
+      "price": 3927,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87588,7 +87588,7 @@
     },
     {
       "code": "10594chbА+30594chbА3",
-      "price": 3,
+      "price": 3927,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87620,7 +87620,7 @@
     },
     {
       "code": "10594chbА+30594chbА4",
-      "price": 3,
+      "price": 3927,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87652,7 +87652,7 @@
     },
     {
       "code": "10594chbА+30594chbА5",
-      "price": 3,
+      "price": 3927,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87684,7 +87684,7 @@
     },
     {
       "code": "10594chbА+30594chbА6",
-      "price": 3,
+      "price": 3927,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87716,7 +87716,7 @@
     },
     {
       "code": "20500А+10500А",
-      "price": 2,
+      "price": 2318,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87748,7 +87748,7 @@
     },
     {
       "code": "20500А+10500А1",
-      "price": 2,
+      "price": 2318,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87780,7 +87780,7 @@
     },
     {
       "code": "20500А+10500А2",
-      "price": 2,
+      "price": 2318,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87812,7 +87812,7 @@
     },
     {
       "code": "20500А+10500А3",
-      "price": 2,
+      "price": 2318,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87844,7 +87844,7 @@
     },
     {
       "code": "20500А+10500А4",
-      "price": 2,
+      "price": 2318,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87876,7 +87876,7 @@
     },
     {
       "code": "20696tskА+30096tskА",
-      "price": 3,
+      "price": 3974,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87908,7 +87908,7 @@
     },
     {
       "code": "20696tskА+10595tskА",
-      "price": 4,
+      "price": 4459,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87940,7 +87940,7 @@
     },
     {
       "code": "20696tskА+10595tskА2",
-      "price": 4,
+      "price": 4459,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -87972,7 +87972,7 @@
     },
     {
       "code": "20696tskА+10595tskА3",
-      "price": 4,
+      "price": 4459,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88004,7 +88004,7 @@
     },
     {
       "code": "20696tskА+10595tskА4",
-      "price": 4,
+      "price": 4459,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88036,7 +88036,7 @@
     },
     {
       "code": "20696tskА+10595tskА5",
-      "price": 4,
+      "price": 4459,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88068,7 +88068,7 @@
     },
     {
       "code": "20696tskА+10595tskА6",
-      "price": 4,
+      "price": 4459,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88100,7 +88100,7 @@
     },
     {
       "code": "10595tskА+30096tskА",
-      "price": 3,
+      "price": 3314,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88132,7 +88132,7 @@
     },
     {
       "code": "10595tskА+30096tskА1",
-      "price": 3,
+      "price": 3314,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88164,7 +88164,7 @@
     },
     {
       "code": "10595tskА+30096tskА2",
-      "price": 3,
+      "price": 3314,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88196,7 +88196,7 @@
     },
     {
       "code": "10595tskА+30096tskА3",
-      "price": 3,
+      "price": 3314,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88228,7 +88228,7 @@
     },
     {
       "code": "10595tskА+30096tskА4",
-      "price": 3,
+      "price": 3314,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88260,7 +88260,7 @@
     },
     {
       "code": "10595tskА+30096tskА5",
-      "price": 3,
+      "price": 3314,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88292,7 +88292,7 @@
     },
     {
       "code": "20696tskA+10595tskA+30096tskA",
-      "price": 5,
+      "price": 5489,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88324,7 +88324,7 @@
     },
     {
       "code": "20696tskA+10595tskA+30096tskA1",
-      "price": 5,
+      "price": 5489,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88356,7 +88356,7 @@
     },
     {
       "code": "20696tskA+10595tskA+30096tskA3",
-      "price": 5,
+      "price": 5489,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88388,7 +88388,7 @@
     },
     {
       "code": "20696tskA+10595tskA+30096tskA2",
-      "price": 5,
+      "price": 5489,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88420,7 +88420,7 @@
     },
     {
       "code": "20696tskA+10595tskA+30096tskA4",
-      "price": 5,
+      "price": 5489,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88452,7 +88452,7 @@
     },
     {
       "code": "20713A+10602A",
-      "price": 4,
+      "price": 4411,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88484,7 +88484,7 @@
     },
     {
       "code": "20713A+10602A1",
-      "price": 4,
+      "price": 4411,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88516,7 +88516,7 @@
     },
     {
       "code": "20713A+10602A3",
-      "price": 4,
+      "price": 4411,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88548,7 +88548,7 @@
     },
     {
       "code": "20713chА+10602chА",
-      "price": 4,
+      "price": 4411,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88580,7 +88580,7 @@
     },
     {
       "code": "20713chА+10602chА1",
-      "price": 4,
+      "price": 4411,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88612,7 +88612,7 @@
     },
     {
       "code": "20713chА+10602chА2",
-      "price": 4,
+      "price": 4411,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88644,7 +88644,7 @@
     },
     {
       "code": "20713chА+10602chА3",
-      "price": 4,
+      "price": 4411,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88676,7 +88676,7 @@
     },
     {
       "code": "20713chА+10602chА4",
-      "price": 4,
+      "price": 4411,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88708,7 +88708,7 @@
     },
     {
       "code": "20713chА+10602chА5",
-      "price": 4,
+      "price": 4411,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88740,7 +88740,7 @@
     },
     {
       "code": "20713chА+10602chА6",
-      "price": 4,
+      "price": 4411,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88772,7 +88772,7 @@
     },
     {
       "code": "20713sА+10602sА",
-      "price": 4,
+      "price": 4411,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88804,7 +88804,7 @@
     },
     {
       "code": "20713sА+10602sА1",
-      "price": 4,
+      "price": 4411,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88836,7 +88836,7 @@
     },
     {
       "code": "20713sА+10602sА2",
-      "price": 4,
+      "price": 4411,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88868,7 +88868,7 @@
     },
     {
       "code": "20713sА+10602sА3",
-      "price": 4,
+      "price": 4411,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88900,7 +88900,7 @@
     },
     {
       "code": "20713sА+10602sА4",
-      "price": 4,
+      "price": 4411,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88932,7 +88932,7 @@
     },
     {
       "code": "20713sА+10602sА5",
-      "price": 4,
+      "price": 4411,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88964,7 +88964,7 @@
     },
     {
       "code": "20713sА+10602sА6",
-      "price": 4,
+      "price": 4411,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -88996,7 +88996,7 @@
     },
     {
       "code": "20772А+10718А",
-      "price": 5,
+      "price": 5564,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89028,7 +89028,7 @@
     },
     {
       "code": "20772А+10718А1",
-      "price": 5,
+      "price": 5564,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89060,7 +89060,7 @@
     },
     {
       "code": "20772А+10718А2",
-      "price": 5,
+      "price": 5564,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89092,7 +89092,7 @@
     },
     {
       "code": "20772А+10718А3",
-      "price": 5,
+      "price": 5564,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89124,7 +89124,7 @@
     },
     {
       "code": "20772А+10718А4",
-      "price": 5,
+      "price": 5564,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89156,7 +89156,7 @@
     },
     {
       "code": "20772А+10718А5",
-      "price": 5,
+      "price": 5564,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89188,7 +89188,7 @@
     },
     {
       "code": "20772А+10718А6",
-      "price": 5,
+      "price": 5564,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89220,7 +89220,7 @@
     },
     {
       "code": "20772А+10718А7",
-      "price": 5,
+      "price": 5564,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89252,7 +89252,7 @@
     },
     {
       "code": "20772А+10718А8",
-      "price": 5,
+      "price": 5564,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89284,7 +89284,7 @@
     },
     {
       "code": "20772А+10718А9",
-      "price": 5,
+      "price": 5564,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89316,7 +89316,7 @@
     },
     {
       "code": "20772А+10718А0",
-      "price": 5,
+      "price": 5564,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89348,7 +89348,7 @@
     },
     {
       "code": "20784А+39134А",
-      "price": 3,
+      "price": 3930,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89380,7 +89380,7 @@
     },
     {
       "code": "20806А+10606А",
-      "price": 4,
+      "price": 4701,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89412,7 +89412,7 @@
     },
     {
       "code": "20806А+10606А1",
-      "price": 4,
+      "price": 4701,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89444,7 +89444,7 @@
     },
     {
       "code": "20806А+10606А3",
-      "price": 4,
+      "price": 4701,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89476,7 +89476,7 @@
     },
     {
       "code": "20806А+10606А2",
-      "price": 4,
+      "price": 4701,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89508,7 +89508,7 @@
     },
     {
       "code": "20806А+10606А5",
-      "price": 4,
+      "price": 4701,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89540,7 +89540,7 @@
     },
     {
       "code": "20806А+10606А6",
-      "price": 4,
+      "price": 4701,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89572,7 +89572,7 @@
     },
     {
       "code": "20750А+10606А",
-      "price": 4,
+      "price": 4289,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89604,7 +89604,7 @@
     },
     {
       "code": "20750А+10606А1",
-      "price": 4,
+      "price": 4289,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89636,7 +89636,7 @@
     },
     {
       "code": "20750А+10606А2",
-      "price": 4,
+      "price": 4289,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89668,7 +89668,7 @@
     },
     {
       "code": "20750А+10606А3",
-      "price": 4,
+      "price": 4289,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89700,7 +89700,7 @@
     },
     {
       "code": "20750А+10606А4",
-      "price": 4,
+      "price": 4289,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89732,7 +89732,7 @@
     },
     {
       "code": "20750А+10606А5",
-      "price": 4,
+      "price": 4289,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89764,7 +89764,7 @@
     },
     {
       "code": "20795ezА+10725ezА",
-      "price": 2,
+      "price": 2853,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89796,7 +89796,7 @@
     },
     {
       "code": "20795ezА+10725ezА1",
-      "price": 2,
+      "price": 2853,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89828,7 +89828,7 @@
     },
     {
       "code": "20795ezА+10725ezА2",
-      "price": 2,
+      "price": 2853,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89860,7 +89860,7 @@
     },
     {
       "code": "20795ezА+10725ezА3",
-      "price": 2,
+      "price": 2853,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89892,7 +89892,7 @@
     },
     {
       "code": "20795ezА+10725ezА4",
-      "price": 2,
+      "price": 2853,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89924,7 +89924,7 @@
     },
     {
       "code": "20795erozА+10725erozА",
-      "price": 2,
+      "price": 2853,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89956,7 +89956,7 @@
     },
     {
       "code": "20795erozА+10725erozА1",
-      "price": 2,
+      "price": 2853,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -89988,7 +89988,7 @@
     },
     {
       "code": "20795erozА+10725erozА2",
-      "price": 2,
+      "price": 2853,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90020,7 +90020,7 @@
     },
     {
       "code": "20795erozА+10725erozА3",
-      "price": 2,
+      "price": 2853,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90052,7 +90052,7 @@
     },
     {
       "code": "20795erozА+10725erozА4",
-      "price": 2,
+      "price": 2853,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90084,7 +90084,7 @@
     },
     {
       "code": "20795erozА+10725erozА5",
-      "price": 2,
+      "price": 2853,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90116,7 +90116,7 @@
     },
     {
       "code": "20795erozА+10725erozА6",
-      "price": 2,
+      "price": 2853,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90148,7 +90148,7 @@
     },
     {
       "code": "20795erozА+10725erozА7",
-      "price": 2,
+      "price": 2853,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90180,7 +90180,7 @@
     },
     {
       "code": "2478_1А+3967А",
-      "price": 2,
+      "price": 2176,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90212,7 +90212,7 @@
     },
     {
       "code": "30660pА+10660pА",
-      "price": 3,
+      "price": 3731,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90244,7 +90244,7 @@
     },
     {
       "code": "30660pА+10660pА1",
-      "price": 3,
+      "price": 3731,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90276,7 +90276,7 @@
     },
     {
       "code": "30660pА+10660pА2",
-      "price": 3,
+      "price": 3731,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90308,7 +90308,7 @@
     },
     {
       "code": "30660pА+10660pА3",
-      "price": 3,
+      "price": 3731,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90340,7 +90340,7 @@
     },
     {
       "code": "30660pА+10660pА4",
-      "price": 3,
+      "price": 3731,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90372,7 +90372,7 @@
     },
     {
       "code": "30660pА+10660pА5",
-      "price": 3,
+      "price": 3731,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90404,7 +90404,7 @@
     },
     {
       "code": "30660pА+10660pА6",
-      "price": 3,
+      "price": 3731,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90436,7 +90436,7 @@
     },
     {
       "code": "30414chА+20814chА",
-      "price": 2,
+      "price": 2266,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90468,7 +90468,7 @@
     },
     {
       "code": "20814chА+10614chА",
-      "price": 2,
+      "price": 2700,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90500,7 +90500,7 @@
     },
     {
       "code": "20814chА+10614chА1",
-      "price": 2,
+      "price": 2700,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90532,7 +90532,7 @@
     },
     {
       "code": "20814chА+10614chА2",
-      "price": 2,
+      "price": 2700,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90564,7 +90564,7 @@
     },
     {
       "code": "20814chА+10614chА3",
-      "price": 2,
+      "price": 2700,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90596,7 +90596,7 @@
     },
     {
       "code": "20814chА+10614chА4",
-      "price": 2,
+      "price": 2700,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90628,7 +90628,7 @@
     },
     {
       "code": "20814chА+10614chА5",
-      "price": 2,
+      "price": 2700,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90660,7 +90660,7 @@
     },
     {
       "code": "20814chА+10614chА6",
-      "price": 2,
+      "price": 2700,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90692,7 +90692,7 @@
     },
     {
       "code": "20814chА+10614chА7",
-      "price": 2,
+      "price": 2700,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90724,7 +90724,7 @@
     },
     {
       "code": "20814chА+10614chА8",
-      "price": 2,
+      "price": 2700,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90756,7 +90756,7 @@
     },
     {
       "code": "20814chА+10614chА9",
-      "price": 2,
+      "price": 2700,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90788,7 +90788,7 @@
     },
     {
       "code": "30414chА+10614chА",
-      "price": 2,
+      "price": 2245,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90820,7 +90820,7 @@
     },
     {
       "code": "30414chА+10614chА1",
-      "price": 2,
+      "price": 2245,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90852,7 +90852,7 @@
     },
     {
       "code": "30414chА+10614chА2",
-      "price": 2,
+      "price": 2245,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90884,7 +90884,7 @@
     },
     {
       "code": "30414chА+10614chА3",
-      "price": 2,
+      "price": 2245,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90916,7 +90916,7 @@
     },
     {
       "code": "30414chА+10614chА4",
-      "price": 2,
+      "price": 2245,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90948,7 +90948,7 @@
     },
     {
       "code": "30414chА+10614chА5",
-      "price": 2,
+      "price": 2245,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -90980,7 +90980,7 @@
     },
     {
       "code": "30414chА+10614chА6",
-      "price": 2,
+      "price": 2245,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -91012,7 +91012,7 @@
     },
     {
       "code": "30414chА+10614chА7",
-      "price": 2,
+      "price": 2245,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -91044,7 +91044,7 @@
     },
     {
       "code": "30414chА+10614chА8",
-      "price": 2,
+      "price": 2245,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -91076,7 +91076,7 @@
     },
     {
       "code": "30414chА+10614chА9",
-      "price": 2,
+      "price": 2245,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -91108,7 +91108,7 @@
     },
     {
       "code": "30414chА+20814chА+10614chА",
-      "price": 3,
+      "price": 3260,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -91140,7 +91140,7 @@
     },
     {
       "code": "30414chА+20814chА+10614chА1",
-      "price": 3,
+      "price": 3260,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -91172,7 +91172,7 @@
     },
     {
       "code": "30414chА+20814chА+10614chА2",
-      "price": 3,
+      "price": 3260,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -91204,7 +91204,7 @@
     },
     {
       "code": "30414chА+20814chА+10614chА3",
-      "price": 3,
+      "price": 3260,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -91236,7 +91236,7 @@
     },
     {
       "code": "30414chА+20814chА+10614chА4",
-      "price": 3,
+      "price": 3260,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -91268,7 +91268,7 @@
     },
     {
       "code": "30414chА+20814chА+10614chА5",
-      "price": 3,
+      "price": 3260,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -91300,7 +91300,7 @@
     },
     {
       "code": "30414chА+20814chА+10614chА6",
-      "price": 3,
+      "price": 3260,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -91332,7 +91332,7 @@
     },
     {
       "code": "30414chА+20814chА+10614chА7",
-      "price": 3,
+      "price": 3260,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -91364,7 +91364,7 @@
     },
     {
       "code": "30414chА+20814chА+10614chА8",
-      "price": 3,
+      "price": 3260,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -91396,7 +91396,7 @@
     },
     {
       "code": "30414chА+20814chА+10614chА9",
-      "price": 3,
+      "price": 3260,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -91428,7 +91428,7 @@
     },
     {
       "code": "39137А+20794А",
-      "price": 3,
+      "price": 3563,
       "old_price": 0,
       "availability": true,
       "stock": 10,
@@ -91460,7 +91460,7 @@
     },
     {
       "code": "39677А+20702А",
-      "price": 3,
+      "price": 3520,
       "old_price": 0,
       "availability": true,
       "stock": 10,
